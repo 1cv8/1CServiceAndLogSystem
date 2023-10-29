@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b087171f-b9dd-497b-8fea-9f2a675fb335">
+  <producedTypes>
+    <selectionType typeId="450f8c64-32b4-4ab4-b187-90c000262ac8" valueTypeId="913c7e80-46ec-49ce-ab2d-517bda409838"/>
+    <listType typeId="36af4219-a182-449a-a28f-ddb50459564b" valueTypeId="b319006c-78c6-44f0-9333-97b4d339b96f"/>
+    <managerType typeId="cbe9cb22-ca51-4e5e-b37e-cbf00cf300c2" valueTypeId="f0a0eba2-e21e-41c5-9ae5-7aaae6f4ac85"/>
+    <recordSetType typeId="6f1d7544-4058-4bd0-8279-d2bb676fbf1f" valueTypeId="09b68060-ca60-404a-83f8-27b4d1c642c5"/>
+    <recordKeyType typeId="e1611616-bf79-4b25-83a9-7da1fa594bec" valueTypeId="27187b41-eb02-4074-936b-1138af2decf2"/>
+    <recordType typeId="782da112-33b7-4ea8-a512-4d0481dfcc34" valueTypeId="6491ea74-1550-4467-888d-87ff7281fc22"/>
+    <recordManagerType typeId="29beaae3-1cc8-4879-adee-7206f3075ba1" valueTypeId="aeae3a53-da20-481a-ae0e-2fcca273eb3d"/>
+  </producedTypes>
+  <name>ПериодыПостроенияОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периоды построения отчетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="196da757-dca4-4d3c-86bd-d7b83a07252b">
+    <name>ДатаОкончанияПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2804ad1a-8e2b-42d9-8b1b-96d243567baf">
+    <name>График</name>
+    <synonym>
+      <key>ru</key>
+      <value>График</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГрафикиПериодовПостроенияОтчетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d8f50d77-f484-4fe6-8896-2942d7865319">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+  <dimensions uuid="4bd1da38-baa4-4364-b23e-1a00a90d39cf">
+    <name>ДатаНачалаПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

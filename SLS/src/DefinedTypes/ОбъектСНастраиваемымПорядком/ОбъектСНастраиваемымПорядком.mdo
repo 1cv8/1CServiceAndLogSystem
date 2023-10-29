@@ -9,6 +9,7 @@
     <value>Объект с настраиваемым порядком</value>
   </synonym>
   <type>
+    <types>CatalogObject.КомандыМониторингаСервисов</types>
     <types>CatalogObject.ЯзыкиПечатныхФорм</types>
     <types>CatalogObject.ПравилаОбработкиЭлектроннойПочты</types>
     <types>CatalogObject.СостоянияОригиналовПервичныхДокументов</types>

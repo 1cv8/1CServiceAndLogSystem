@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63c23c97-d37e-41fe-8ec3-9d299def93a9">
+  <producedTypes>
+    <objectType typeId="8376ad1f-8276-4aac-834a-0d9d75f72249" valueTypeId="3622cbbd-d868-4797-98f7-31cf6ad616ef"/>
+    <refType typeId="f44fd01c-545c-4793-a8bb-63a78c8954ed" valueTypeId="ead48b65-d4b2-4e8a-bb8f-8a33784a3a86"/>
+    <selectionType typeId="bfc7e1a8-95f6-4a96-9dc7-e70b8af5beba" valueTypeId="769317f4-4330-4ae9-b379-dcd57bb05128"/>
+    <listType typeId="0b8d4148-b7b8-4d9b-8e79-250f772869e0" valueTypeId="36478eaf-1090-437e-ae95-3efa524c86ad"/>
+    <managerType typeId="ddefb94c-60a7-4104-9e2a-fa5d985cd2f2" valueTypeId="46af527e-6907-4f11-b93e-b7ef150420b1"/>
+  </producedTypes>
+  <name>ГрафикиПериодовПостроенияОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики периодов построения отчетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГрафикиПериодовПостроенияОтчетов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГрафикиПериодовПостроенияОтчетов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ГрафикиПериодовПостроенияОтчетов.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="257d0aa1-bc83-41b4-b548-64f2d9eef3c4">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dc31bf8e-2154-48ad-9df2-a83194a767f3">
+    <name>ДлинаПериодаВСек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длина периода (в сек)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="42030ad6-0720-43bf-ae43-b6b63c96acce">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

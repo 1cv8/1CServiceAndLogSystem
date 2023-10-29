@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b48b1ff1-41a4-45ee-8e47-477d6e11302d">
+  <producedTypes>
+    <objectType typeId="e61e121d-179b-4341-b5f6-28d21db8f7dd" valueTypeId="d638d98e-ae29-4c1c-9ffd-8ba0b78b4d8d"/>
+    <managerType typeId="8175df3a-bc6a-4a4a-a2a3-218dba84fe5a" valueTypeId="93f2d71d-edf9-43c0-87fc-2b6311a19916"/>
+  </producedTypes>
+  <name>ДинамикаДлительностиОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Динамика длительности операции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ДинамикаДлительностиОперации.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="192baafd-1221-42df-b79a-75e2023f9797">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

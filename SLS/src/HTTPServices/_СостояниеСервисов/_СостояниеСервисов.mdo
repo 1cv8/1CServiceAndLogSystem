@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e310042-7e12-46ff-a099-b7719dba9710">
+  <name>_СостояниеСервисов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояние сервисов</value>
+  </synonym>
+  <rootURL>mss</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="5affeb24-43fd-44f7-8a3a-457799edc89e">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+    <template>/test</template>
+    <methods uuid="1d70dd8e-6e8c-4415-9dd0-f59147fc56c4">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ТестGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="4c43ef98-27de-4472-aad5-adaf4eba2e15">
+    <name>РегламентныеЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентные задания</value>
+    </synonym>
+    <template>/ScheduledJobs</template>
+    <methods uuid="bbd460b9-c2ce-47f7-9ce0-116982f06590">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>РегламентныеЗаданияGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="8b861a13-9677-490c-bfef-7413af5a4613">
+    <name>РегламентноеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентное задание</value>
+    </synonym>
+    <template>/ScheduledJobs/{ID}</template>
+    <methods uuid="e3993a37-b346-4952-a128-ddaeabbc9ef5">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>РегламентноеЗаданиеGET</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

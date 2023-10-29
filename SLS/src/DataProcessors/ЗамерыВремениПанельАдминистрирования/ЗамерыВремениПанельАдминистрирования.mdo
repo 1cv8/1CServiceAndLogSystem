@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b83d401-ff8e-42e6-b04f-3f81cac9736a">
+  <producedTypes>
+    <objectType typeId="0c3a0385-20c2-4ca4-94fe-f963a1f9991b" valueTypeId="d93ce92c-f873-4398-b38f-5993c9dd4546"/>
+    <managerType typeId="204576c1-3ac7-4212-8028-be1bf7becf3c" valueTypeId="26530bd4-4681-47a4-856b-fdcd9bdbff28"/>
+  </producedTypes>
+  <name>ЗамерыВремениПанельАдминистрирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования (Замеры времени)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗамерыВремениПанельАдминистрирования.Form.Форма</defaultForm>
+  <forms uuid="7ead1367-8c47-405b-afaf-ed7df2d2a863">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

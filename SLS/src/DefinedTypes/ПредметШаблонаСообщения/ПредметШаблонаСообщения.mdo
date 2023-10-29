@@ -9,6 +9,7 @@
     <value>Предмет шаблона сообщения</value>
   </synonym>
   <type>
+    <types>CatalogRef.КомандыМониторингаСервисов</types>
     <types>DocumentRef.НазначениеОпросов</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
   </type>

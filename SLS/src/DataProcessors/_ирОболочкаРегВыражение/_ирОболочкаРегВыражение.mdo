@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a303f5d-127d-4119-94ba-e51f00471ed8">
+  <producedTypes>
+    <objectType typeId="d495be09-aa91-4044-8174-367517c661c2" valueTypeId="067525b6-0031-4e30-91f4-3c3bf9896e74"/>
+    <managerType typeId="72cecb19-545c-4d03-b17f-6dfca99fed4c" valueTypeId="41a72a2e-2236-4562-916d-cd97b5dc9a20"/>
+  </producedTypes>
+  <name>_ирОболочкаРегВыражение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ир оболочка рег выражение</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Ир оболочка рег выражение</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Ир оболочка рег выражение</value>
+  </synonym>
+  <attributes uuid="b2fef274-02d0-4583-9df1-940f34c7dcff">
+    <name>Global</name>
+    <synonym>
+      <key>ru</key>
+      <value>Global</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Global</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Global</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a7655f30-6e8c-4f79-a066-59272d4e5b2c">
+    <name>IgnoreCase</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ignore case</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ignore case</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Ignore case</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="764add4d-4fcf-45da-b2e6-20888e971fb6">
+    <name>Multiline</name>
+    <synonym>
+      <key>ru</key>
+      <value>Multiline</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Multiline</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Multiline</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c840c3c6-a177-4c3d-b15c-55e4f988a820">
+    <name>Pattern</name>
+    <synonym>
+      <key>ru</key>
+      <value>Pattern</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Pattern</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Pattern</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>

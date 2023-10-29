@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54315285-59dd-4997-b715-cc71cc3532fe">
+  <producedTypes>
+    <selectionType typeId="ff971836-5f41-4968-af85-fa82a93d5480" valueTypeId="bc7a2dab-54fa-45aa-b2b6-5fbf248c7bbb"/>
+    <listType typeId="98449246-2b51-4f1b-b0f5-a145e8842dab" valueTypeId="38f890da-265c-4fb1-8b40-f462a670d6ff"/>
+    <managerType typeId="3fbc26ba-628f-4625-be40-74df3182ecbe" valueTypeId="b387c136-d7cc-4406-b997-a29b5ec487d5"/>
+    <recordSetType typeId="689260ad-c05b-41cb-b5a6-44f28c736eb5" valueTypeId="c15ddb75-d3b4-46ed-8d0d-ae61f686efe3"/>
+    <recordKeyType typeId="8b77753b-cad6-452c-ac4f-24af76610357" valueTypeId="e02902ed-208e-4d9d-a682-48e5adaa1634"/>
+    <recordType typeId="4306fbba-971a-494d-8db5-1edafc9ec002" valueTypeId="13cf1255-3431-42ca-874f-7af8e2e7a911"/>
+    <recordManagerType typeId="fed9fe64-28e1-4062-8a70-d04ff53d2664" valueTypeId="84da33c5-289a-45d1-9092-33fb7859f8e3"/>
+  </producedTypes>
+  <name>ГраницыИмпортаЗамеровПроизводительности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Границы импорта замеров производительности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="17a607d6-cee2-434b-a92f-e97f0d1a4263">
+    <name>ДатаЗагружено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата загружено</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="fc1d9d85-ecbc-4c5a-bc69-95497dc835b3">
+    <name>База1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>База1 С</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БазыДанных1С</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

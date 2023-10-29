@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a79f43c4-a8d0-4f97-aff2-5f4128d7b701">
+  <producedTypes>
+    <selectionType typeId="f5b8d4e2-8d30-4a20-9f85-13a5704dc298" valueTypeId="3ef2adc8-2dc1-4f53-acc1-1d61a51f4726"/>
+    <listType typeId="6d8772c5-09db-46fb-97d2-fbe0061ecfbc" valueTypeId="13171e0b-98a8-4121-a576-4efadc9984f0"/>
+    <managerType typeId="e3bfe90a-1246-42f4-9e09-08bea25f1228" valueTypeId="db5ff9f5-b4a4-4553-a0e4-93e09be981cc"/>
+    <recordSetType typeId="41143243-307f-4545-a641-e7adca1d9e42" valueTypeId="d2d82954-f406-46df-abe1-971326f0c1d9"/>
+    <recordKeyType typeId="c6fda986-d49b-413e-a2c8-aa795262411e" valueTypeId="7eeaa419-b93a-42a8-9f27-27c004378d8d"/>
+    <recordType typeId="921e819d-158b-4754-9d48-75a512201e98" valueTypeId="fbc13e87-b694-484f-89f0-5715fe0cdc0b"/>
+    <recordManagerType typeId="bb6d50b0-a950-4056-9724-87b7de8ddd4e" valueTypeId="70827f7f-ca23-4dcb-b952-17095445e1a1"/>
+  </producedTypes>
+  <name>НастройкиИмпортаЗамеровВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки импорта замеров времени</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="101776d4-f21e-4f86-aa06-e8d0236ce31b">
+    <name>СобиратьЗамерыВремениSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собирать замеры времени SQL</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4c245353-5330-45fe-a384-f85327faaa44">
+    <name>ПараметрыSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры SQL</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПараметрыИмпортаЗамеровВремениSQL</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7289e3a0-3ba7-49d1-b268-73098ec67fd5">
+    <name>КомпьютерВЗамерах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компьютер в замерах</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="10497dcf-1d02-4a26-8221-c3a7093823cb">
+    <name>База1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>База 1С</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БазыДанных1С</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

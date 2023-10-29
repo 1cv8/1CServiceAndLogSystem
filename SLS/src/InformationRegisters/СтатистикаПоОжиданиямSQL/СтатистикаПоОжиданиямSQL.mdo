@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4a0ae50-8907-46a3-a3e6-a0ab098713f5">
+  <producedTypes>
+    <selectionType typeId="1aa52a87-45f4-41cc-83cf-d5d8c5b5a92c" valueTypeId="07b68e52-345e-4d0f-a7c3-7549195ed054"/>
+    <listType typeId="8848df9d-f0ea-4735-8d41-79c8756d1905" valueTypeId="266f15ad-43b6-4709-9d8e-70b9508c16d1"/>
+    <managerType typeId="e3e874af-5223-4e74-ad35-b1565fb581b7" valueTypeId="8cdbbf75-1af4-4506-bef8-b61a33a62ae9"/>
+    <recordSetType typeId="6ef0b3db-6d42-456b-8974-7309e4503b6e" valueTypeId="70e282d0-2549-4d6b-920e-dbebbd8484f5"/>
+    <recordKeyType typeId="b0e1060d-fad6-4c20-b352-8dbfb6553a51" valueTypeId="4e20c212-7a45-4059-b84c-3d9fef3cb790"/>
+    <recordType typeId="3d91443c-5081-4d94-abbf-23600da9a588" valueTypeId="da2a44a5-ab4e-4e12-9b44-f5c20f53df8e"/>
+    <recordManagerType typeId="78deb415-6d07-4928-9e81-80b22e6c5f1b" valueTypeId="460c78c2-0c74-4ae0-b74d-417d17ffc35b"/>
+  </producedTypes>
+  <name>СтатистикаПоОжиданиямSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика по ожиданиям SQL</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c30ad115-c76b-42e0-8378-c1dc197ea34f">
+    <name>duration_s</name>
+    <synonym>
+      <key>ru</key>
+      <value>Duration s</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1491eb5f-91e4-4240-85b0-88c1afadeb25">
+    <name>wait_time_s</name>
+    <synonym>
+      <key>ru</key>
+      <value>Wait time s</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a34ca93b-20dc-407c-b0b8-f3a2423f0c1e">
+    <name>signal_wait_time_s</name>
+    <synonym>
+      <key>ru</key>
+      <value>Signal wait time s</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="090e65e3-bb38-4c5a-9fe3-4066d42c266a">
+    <name>waiting_tasks_count</name>
+    <synonym>
+      <key>ru</key>
+      <value>Waiting tasks count</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f5ceaca0-e2d3-4bbb-98ca-7debf4d67eb6">
+    <name>СерверSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер SQL</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СерверыSQL</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="655ed6e7-3bd0-4b9a-a2a8-29d45e6d86b6">
+    <name>ДатаСбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата сбора</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3f96eb96-58a1-4d09-80cd-71433643c28f">
+    <name>wait_type</name>
+    <synonym>
+      <key>ru</key>
+      <value>Wait type</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыОжиданийSQL</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

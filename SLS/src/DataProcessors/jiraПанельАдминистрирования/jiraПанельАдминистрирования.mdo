@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2954046d-6641-47a9-83c7-2b6a8c3c836e">
+  <producedTypes>
+    <objectType typeId="db44db1b-4ba1-4ac0-87d8-8ac302c350fc" valueTypeId="5ea9cc99-57e0-419d-b7d7-8ba6591729b8"/>
+    <managerType typeId="17d0c805-a021-4aa1-9d4d-530248d11ebc" valueTypeId="764b9701-2259-4c38-b119-7b041a230c64"/>
+  </producedTypes>
+  <name>jiraПанельАдминистрирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования (Jira)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.jiraПанельАдминистрирования.Form.Форма</defaultForm>
+  <forms uuid="32568b68-cd9b-4ff3-9816-aa66dfbadb93">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

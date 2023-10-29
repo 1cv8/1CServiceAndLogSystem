@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26b6f2dd-deea-49ed-b094-408bde8bac8a">
+  <name>ОповещениеОДлительныхТранзакцияхSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оповещение о длительных транзакциях SQL</value>
+  </synonym>
+  <methodName>CommonModule.СборДанныхОПроизводительности.ОповещениеОДлительныхТранзакцияхSQL</methodName>
+  <description>Оповещение о длительных транзакциях SQL</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

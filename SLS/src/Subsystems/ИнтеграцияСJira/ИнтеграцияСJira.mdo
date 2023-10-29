@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec37db62-798b-4832-a5ee-47353dc99f0b">
+  <name>ИнтеграцияСJira</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с jira</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделИнтеграцияСJira</picture>
+  </picture>
+  <content>Catalog._НастройкиПодключенийКСервисамHTTP</content>
+  <content>Catalog.jiraСервера</content>
+  <content>Catalog.jiraТипыЗапросов</content>
+  <content>Catalog.jiraКатегорииСтатусов</content>
+  <content>Catalog.jiraПроекты</content>
+  <content>Catalog.jiraПользователи</content>
+  <content>Catalog.jiraШаблонДляНовыхЗадач</content>
+  <content>Constant.СерверДляИнтеграцииСJira</content>
+  <content>Constant.ШаблонДляСозданияНовыхЗадач</content>
+  <content>a64d464a-038b-40ce-b83d-c71cb41ed60c</content>
+  <content>InformationRegister.jiraСвязанныеЗадачи</content>
+  <content>CommonPicture.РазделИнтеграцияСJira</content>
+  <content>Catalog.jiraЗадачи</content>
+  <content>InformationRegister.jiraСписанноеВремяПоЗадаче</content>
+  <content>InformationRegister.JiraПоследняяЗагрузкаЗадач</content>
+  <content>Catalog.jiraСтатусы</content>
+  <content>Catalog.jiraРеквизитыЗадач</content>
+  <content>InformationRegister.jiraИсторияИзмененияЗадач</content>
+  <content>InformationRegister.jiraСоставИзмененияЗадач</content>
+  <content>Catalog.JiraГрафикРаботыДляРасчетов</content>
+  <content>64b8dae9-6d74-467f-b341-87842fdeec0b</content>
+  <content>Enum.JiraПриоритеты</content>
+  <content>DefinedType.ТипыОснованийЗадачJira</content>
+  <content>ScheduledJob.ОбновитьЗадачиJira</content>
+  <content>CommonModule.ИнтеграцияСJiraПовтИсп</content>
+  <content>CommonModule.ИнтеграцияСJira</content>
+  <content>DataProcessor.jiraПанельАдминистрирования</content>
+</mdclass:Subsystem>

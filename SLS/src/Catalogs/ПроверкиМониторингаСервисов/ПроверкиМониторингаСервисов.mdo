@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aaae36f1-49fb-4182-b2d6-18d2726e5363">
+  <producedTypes>
+    <objectType typeId="11ddd228-15a0-4b1c-88aa-0d350d76c87a" valueTypeId="20c42b6d-174d-461d-b738-4f23ad90cf33"/>
+    <refType typeId="71c9ea45-a5d2-4c33-b8fd-71ea808b2f12" valueTypeId="d9ac80a9-8435-40b0-8e07-100124b3c881"/>
+    <selectionType typeId="08fa7e5a-8e85-41a9-b3b7-f10042d525da" valueTypeId="7baf692b-7f33-4549-b52a-4c34943687ba"/>
+    <listType typeId="ee6dbe41-f073-4bf1-917e-a02506fc7ee7" valueTypeId="9a0b5922-749f-484f-98d9-f33f29c5e7b9"/>
+    <managerType typeId="f207a4b5-e495-4853-929e-d6694dd75f02" valueTypeId="ca24eb15-f51d-42c4-8731-58a0761b5185"/>
+  </producedTypes>
+  <name>ПроверкиМониторингаСервисов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверки мониторинга сервисов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПроверкиМониторингаСервисов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПроверкиМониторингаСервисов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПроверкиМониторингаСервисов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ПроверкиМониторингаСервисов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ПроверкиМониторингаСервисов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="7f305a6c-c0a8-42a5-bcb8-a756cd71a0c9">
+    <name>ГруппаОповещенияОбУспехе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа оповещения об успехе</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыПолучателейРассылок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1ca6aea8-ce7c-4baf-9353-2ebe66fc3081">
+    <name>ГруппаОповещенияОНеудаче</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа оповещения о неудаче</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыПолучателейРассылок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8f888c0e-fa3a-474e-b191-1cac47c032c4">
+    <name>РегламентноеЗадание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регламентное задание</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="d1c40268-50b6-4ded-842c-c73ac88adf83">
+    <producedTypes>
+      <objectType typeId="6f5b388c-aae6-497b-abd0-415cb9ea62d5" valueTypeId="1dbecaf4-0511-478d-a7a8-c7b6585b3c8a"/>
+      <rowType typeId="2da6d90f-8d57-416e-a05e-db84fa768039" valueTypeId="70d093d8-81f2-4182-a46b-32bc81b738dc"/>
+    </producedTypes>
+    <name>СоставПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав проверки</value>
+    </synonym>
+    <attributes uuid="f4ad4721-0bca-4c25-8ddd-3a347140276a">
+      <name>База1С</name>
+      <synonym>
+        <key>ru</key>
+        <value>База 1С</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.БазыДанных1С</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a30e7d84-4e6d-4c81-8d6d-e0123c3126f1">
+      <name>СсылкаВБазе1С</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылка в базе 1С</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СсылкаВБазе1С</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.База1С</name>
+        <field>Catalog.ПроверкиМониторингаСервисов.TabularSection.СоставПроверки.Attribute.База1С</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f6595c12-7de0-4201-8231-082d736db306">
+      <name>ПараметрИмя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметр имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d66a9e29-a177-45fe-acde-51fbcc47a7cd">
+      <name>Команда</name>
+      <synonym>
+        <key>ru</key>
+        <value>Команда</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КомандыМониторингаСервисов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="037b7298-0875-4a71-a05a-1783ba7e6d6f">
+      <name>Отключить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отключить</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7415f2c4-6e1c-446e-91c2-60d72a2abac2">
+      <name>ОповещатьОбУспехе</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оповещать об успехе</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5b39979f-a08a-4dc7-a575-b6cb94831beb">
+      <name>ГруппаОповещенияОбУспехе</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа оповещения об успехе</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ГруппыПолучателейРассылок</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cc4f2f8c-2191-4933-81e7-d8beb4702036">
+      <name>ОповещатьОНеудаче</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оповещать о неудаче</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7905f4f7-b552-4aa5-ac36-06307d1e3c7c">
+      <name>ГруппаОповещенияОНеудаче</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа оповещения о неудаче</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ГруппыПолучателейРассылок</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="27ff26e6-d17c-46f3-82c6-8ae3b1d22351">
+      <name>ПродолжатьПроверку</name>
+      <synonym>
+        <key>ru</key>
+        <value>Продолжать проверку</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="adb2c80a-dcc9-489c-9fde-486fbc866dcc">
+      <name>ИнтервалПовторногоОповещенияОбУспехе</name>
+      <synonym>
+        <key>ru</key>
+        <value>Интервал повторного оповещения об успехе</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5e226664-604e-461d-8708-72160dbe7e3e">
+      <name>ИнтервалПовторногоОповещенияОНеудаче</name>
+      <synonym>
+        <key>ru</key>
+        <value>Интервал повторного оповещения о неудаче</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7e50be50-8107-46a7-ae9d-a5793bb50615">
+      <name>ОповещатьОбИсправлении</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оповещать об исправлении</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="50d33ecf-eafa-4147-9e88-ac1866cea812">
+      <name>ОповещениеTelegram</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оповещение telegram</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="0a40aa8d-b8fb-43aa-a740-28b5660d0b1f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="529cb828-e819-4030-8c18-905551109fa5">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="10ee4016-9923-4462-9030-fcbd660d9de1">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

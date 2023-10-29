@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="325308f9-d6db-4fd5-8487-e45090f86dad">
+  <name>СтруктураСерверов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структура серверов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.КомпьютерСервер186</picture>
+  </picture>
+  <content>Catalog.БазыДанныхSQL</content>
+  <content>Catalog.Конфигурации1С</content>
+  <content>Catalog.Версии1СПредприятия</content>
+  <content>Catalog.Кластеры1СПредприятия</content>
+  <content>Catalog.БазыДанных1С</content>
+  <content>Catalog.СерверыSQL</content>
+  <content>Catalog.СохраняемыеПараметрыБаз1С</content>
+  <content>InformationRegister.ЗначенияСохраняемыхПараметровБаз1С</content>
+  <content>Catalog.ИдентификаторыОбъектовМетаданныхКонфигураций</content>
+  <content>Catalog.СсылкаВБазе1С</content>
+  <content>Catalog.ТипыСекретовКонфигураций1С</content>
+  <content>DataProcessor.ЗагрузкаМетаданныхOdata</content>
+  <content>Catalog.ПользователиБаз1С</content>
+  <content>Catalog.ВерсииКонфигураций1С</content>
+  <content>Catalog.Компьютеры</content>
+</mdclass:Subsystem>

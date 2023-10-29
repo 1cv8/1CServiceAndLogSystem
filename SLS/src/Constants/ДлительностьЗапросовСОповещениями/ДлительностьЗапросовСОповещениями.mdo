@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f697e8e-e24e-4169-81d9-077d8bcbf7e5">
+  <producedTypes>
+    <managerType typeId="05b38444-1ac1-4553-abe0-8032ed83a27c" valueTypeId="6ea5c539-5b17-42c8-b0a6-918e0ba7b1d5"/>
+    <valueManagerType typeId="b703b3c5-648f-4761-a411-4a94804086de" valueTypeId="a3c415f7-23d4-4223-a043-07c152cfb61f"/>
+    <valueKeyType typeId="06a70d40-815f-43af-a611-9b9ec1b7c4dc" valueTypeId="c7ba15e2-28eb-480e-95cf-41865aa23300"/>
+  </producedTypes>
+  <name>ДлительностьЗапросовСОповещениями</name>
+  <synonym>
+    <key>ru</key>
+    <value>Длительность запросов с оповещениями (сек.)</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>10</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

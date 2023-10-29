@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35a3a5f8-bff0-491d-a0b5-1ef2d7a3d3f1">
+  <producedTypes>
+    <objectType typeId="5247109a-bf50-4a61-a0c0-0d2a3adaa7a7" valueTypeId="1468ec1f-df1f-4278-a1f1-ddd3797993ad"/>
+    <refType typeId="7b9559ef-5d4f-459d-b161-a582b7b727c4" valueTypeId="a54b68ba-e18b-4aa5-9c42-a2c8a6e3ff46"/>
+    <selectionType typeId="7798c3c7-6d2e-481f-a097-78e3a20875e4" valueTypeId="d8e9760e-df50-45ae-85e6-356ca731997a"/>
+    <listType typeId="ffcb7050-014f-47c9-885a-1e86ee7e64c5" valueTypeId="0715dbfe-451c-4b48-8dd8-11c8ec83d2cc"/>
+    <managerType typeId="44a40121-a99c-43fa-80aa-15f240fcf405" valueTypeId="6cd451b8-efcd-4dc9-b145-bfe1d1353ff4"/>
+  </producedTypes>
+  <name>ЗапросыSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запросы SQL</value>
+  </synonym>
+  <inputByString>Catalog.ЗапросыSQL.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockFields>Catalog.ЗапросыSQL.Attribute.sql_text_hash</dataLockFields>
+  <dataLockFields>Catalog.ЗапросыSQL.Attribute.sql_text_hash256</dataLockFields>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>17</codeLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЗапросыSQL.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="f62734e1-2ddb-4279-9f7b-24a88a23551c">
+    <name>ТекстЗапросаSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст запроса SQL</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5dc53f0d-6e56-445d-b80a-2e5f03efc26d">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="804d51ef-8679-450d-a80a-a7bbcd565c63">
+    <name>ТекстЗапроса1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст запроса 1С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1e853fba-3c62-4f73-986d-15055ff7b444">
+    <name>commad</name>
+    <synonym>
+      <key>ru</key>
+      <value>Commad</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>70</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="81520304-324e-4496-9016-f805d52e68b9">
+    <name>sql_text_hash</name>
+    <synonym>
+      <key>ru</key>
+      <value>Sql text hash</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="14d6ee77-ecb4-4089-8736-1fbf6bbe500d">
+    <name>sql_text_hash256</name>
+    <synonym>
+      <key>ru</key>
+      <value>Sql text hash256</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>64</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="16ea1220-dad3-4020-9d77-a8f3c26ef6d5">
+    <name>Игнорирорвать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игнорирорвать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="dfb105b7-bc8d-4fcc-a435-5e1f08997940">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

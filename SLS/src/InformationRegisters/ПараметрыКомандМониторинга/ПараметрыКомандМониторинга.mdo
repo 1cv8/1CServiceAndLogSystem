@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0dbfa7a8-1d20-4f45-92af-1f5206d51b18">
+  <producedTypes>
+    <selectionType typeId="518fb46b-5f43-43ee-bdea-77f31dd6b4fc" valueTypeId="74325056-3b95-4fea-8a54-184b265739de"/>
+    <listType typeId="3c562e40-5b62-4096-a108-f581256972d1" valueTypeId="976f0d18-d35c-4ca2-b894-f67b8adfa369"/>
+    <managerType typeId="69f8d1ae-391e-422d-96ad-15ff39c60632" valueTypeId="e4d65b3a-34da-4ac0-8b76-46581837442b"/>
+    <recordSetType typeId="b5a70a31-d5c2-43ae-81e6-15444eac8162" valueTypeId="6887dcd0-95a0-41cd-a2a2-2f7c8979739c"/>
+    <recordKeyType typeId="874d6ac5-af47-4f22-b1f8-26746973216f" valueTypeId="028d9aa5-9e90-4c53-9da5-7b1cda940cd5"/>
+    <recordType typeId="3d617f45-9d9c-41eb-b8fe-0fe6281fbb57" valueTypeId="bf959c82-788c-4069-8c12-7c0ac2edc590"/>
+    <recordManagerType typeId="db1e2a1c-c75d-4e15-bdb3-a372f06835bc" valueTypeId="0ae87b2c-a50a-407f-a0ee-12d7abd2fb35"/>
+  </producedTypes>
+  <name>ПараметрыКомандМониторинга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры команд мониторинга</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="db087092-2078-4f76-b370-efc75a92a129">
+    <name>ЗначениеХранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение хранилище</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="47410e20-7c1e-4038-9c9a-1938a60ac66d">
+    <name>ЗначениеСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение строка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="94a16418-8243-4d27-bc42-712fa3e46d6e">
+    <name>ЗначениеЧисло</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение число</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>25</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e3d79303-9852-4a3f-a975-1346a207d2bc">
+    <name>ЗначениеБулево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение булево</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="714bf2f0-4a17-4c34-bae4-c5acce047fcd">
+    <name>ЗначениеДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="eee5297c-82d1-416d-bfe8-b3a2e72800a7">
+    <name>ЗначениеУИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение УИД</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="450507f1-0a31-43c6-b44f-a26fb0497464">
+    <name>ЗначениеСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение ссылка</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="60197b5f-a81d-44c8-b888-596d2f50421f">
+    <name>ЗначениеСсылкаВБазеМониторинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение ссылка в базе мониторинга</value>
+    </synonym>
+    <type>
+      <types>AnyRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="d6ee16eb-ba1a-4c47-8ee1-4870c9a3ab2b">
+    <name>ЗначениеХранилищеЗаполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение хранилище заполнено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="f2e16865-da33-4a73-9929-227066776173">
+    <name>КомандаМониторинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда мониторинга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КомандыМониторингаСервисов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d305f402-2162-4601-8124-f00c8ec70ce5">
+    <name>ИмяПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя параметра</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

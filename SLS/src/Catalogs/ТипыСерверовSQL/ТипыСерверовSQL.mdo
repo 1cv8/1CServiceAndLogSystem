@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1879ed44-a302-4f62-839b-9ad0d2bcdb19">
+  <producedTypes>
+    <objectType typeId="a15eef24-53fd-4b04-a6f9-f826699fe2fe" valueTypeId="68c97b4e-ba03-42e1-9611-2a3822f040d0"/>
+    <refType typeId="73ef9729-679b-44a3-8ec8-90c0ae053d6c" valueTypeId="60736f9e-edfc-42eb-a3df-64f8ad813e60"/>
+    <selectionType typeId="103c6c2c-f6ef-4df3-8f88-e96f14a5107c" valueTypeId="f4a87659-7f58-4486-864b-2669a29c0d46"/>
+    <listType typeId="3d7739b7-de88-4871-bb8d-008cccbedc4e" valueTypeId="65b19a84-4439-4a58-9e1e-0bce7afa0c5a"/>
+    <managerType typeId="0c7413d0-4a44-41fd-9dfb-cbfd4750d314" valueTypeId="f119eb53-442a-46ed-9809-0e3c93aee5d1"/>
+  </producedTypes>
+  <name>ТипыСерверовSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы серверов SQL</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыСерверовSQL.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="02bcef1b-72c6-4d84-af34-204f5cadaf8e">
+      <name>MS_SQL</name>
+      <description>MS SQL</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="09f34c80-b675-482d-a41a-6e95e25d9bae">
+      <name>MySQL</name>
+      <description>My SQL</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5d252103-fe48-4df6-b5d4-2a97e2f87b54">
+      <name>PostgreSQL</name>
+      <description>Postgre SQL</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТипыСерверовSQL.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="d4583306-3cc0-4c99-afa1-48036e9191d8">
+    <name>ШаблонСтрокиПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон строки подключения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="02cb80ec-0302-430e-ae3c-0f9d880010a4">
+    <name>ШаблонСтрокиПодключенияИмяБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон строки подключения имя базы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>155</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="fc93d4a8-a409-4736-b53f-6ff1ea8817c6">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b67b3cd1-be3b-42d7-99d5-5206ae86e839">
-  <name>БиблиотекаСтандартныхПодсистем</name>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b1fd49b-6e40-4b98-bd18-2ef42d87a1d5">
+  <name>ServiceAndLogSystem</name>
   <synonym>
     <key>ru</key>
-    <value>Библиотека стандартных подсистем, редакция 3.1</value>
+    <value>Service and log system</value>
   </synonym>
-  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="93390ee3-b78c-4d0d-9edd-86ecb168d3bf"/>
-  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="b6949558-38b1-4341-a39c-27ad36952cd0"/>
-  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="c8857d90-211b-46a3-a3e4-cd1701cfaec7"/>
-  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="9543b292-1c92-44fe-942a-533efb309314"/>
-  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="35af0c64-2047-4a5b-b6a8-f11e576862f9"/>
-  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="5b0be85d-a492-4691-8a37-ade29fc15584"/>
-  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="4beec7fd-d595-4f51-9c33-ad0f9fd66513"/>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="f1f0721d-36f4-4e75-8b6c-0677471f79a3"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="2915fc86-be04-464b-b8c6-b00a2de69410"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="4b3a4a70-471f-4693-854c-b829a05b62c1"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="093d99e3-8096-4541-9e6d-c3ac85cff6dc"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="c98b02ae-70ac-4030-88d6-f10c2c44bbf5"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="3dd0401c-ff06-40b1-ae4c-c62d4eea87ef"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="84edadd9-1386-49e7-bfa4-e7b26145ea54"/>
   <configurationExtensionCompatibilityMode>8.3.19</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
@@ -19,10 +19,14 @@
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
-  <vendor>Фирма &quot;1С&quot;</vendor>
-  <version>3.1.7.178</version>
-  <updateCatalogAddress>http://downloads.v8.1c.ru/tmplts/</updateCatalogAddress>
+  <vendor>TopSergey</vendor>
+  <version>1.0.1.0</version>
   <includeHelpInContents>true</includeHelpInContents>
+  <useOrdinaryFormInManagedApplication>true</useOrdinaryFormInManagedApplication>
+  <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
+  <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
+  <defaultReportVariantForm>CommonForm.ФормаВариантаОтчета</defaultReportVariantForm>
+  <defaultReportSettingsForm>CommonForm.ФормаНастроекОтчета</defaultReportSettingsForm>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -33,29 +37,30 @@
     </functionality>
   </usedMobileApplicationFunctionalities>
   <mainSectionPicture/>
+  <defaultStyle>Style.Blue</defaultStyle>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
-    <value>Библиотека стандартных подсистем, редакция 3.1</value>
+    <value>Service and log system for 1C 1.0</value>
   </briefInformation>
   <detailedInformation>
     <key>ru</key>
-    <value>Библиотека стандартных подсистем, редакция 3.1</value>
+    <value>Service and log system for 1C 1.0</value>
   </detailedInformation>
   <splash/>
   <copyright>
     <key>ru</key>
-    <value>Copyright © ООО &quot;1С-Софт&quot;, 2009-2019. Все права защищены</value>
+    <value>TopSergey</value>
   </copyright>
   <vendorInformationAddress>
     <key>ru</key>
-    <value>http://www.1c.ru</value>
+    <value>https://github.com/1cv8</value>
   </vendorInformationAddress>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>UseWithWarnings</modalityUseMode>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
-  <compatibilityMode>8.3.14</compatibilityMode>
+  <compatibilityMode>8.3.15</compatibilityMode>
   <languages uuid="db4a9ccb-9ef5-4b3c-8577-b6fe5db1b62e">
     <name>Русский</name>
     <synonym>
@@ -64,9 +69,31 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <languages uuid="4d6c60b2-16f1-4a8b-93ce-7480692778c0">
+    <name>Английский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Английский</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Английский</value>
+    </synonym>
+    <languageCode>en</languageCode>
+  </languages>
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <subsystems>Subsystem.СборДанныхSQL</subsystems>
+  <subsystems>Subsystem.СтруктураСерверов</subsystems>
+  <subsystems>Subsystem.СтандартныеПодсистемы2</subsystems>
+  <subsystems>Subsystem.ПериодыПостроенияОтчетов</subsystems>
+  <subsystems>Subsystem.ЗамерыВремени</subsystems>
+  <subsystems>Subsystem.МониторингСервисов</subsystems>
+  <subsystems>Subsystem.Оповещение</subsystems>
+  <subsystems>Subsystem._ДопМодули</subsystems>
+  <subsystems>Subsystem.ЖурналИсключений</subsystems>
+  <subsystems>Subsystem.ИнтеграцияСJira</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряВоскресеньеЦвет</styleItems>
   <styleItems>StyleItem.ВидДняПроизводственногоКалендаряНеУказанЦвет</styleItems>
@@ -144,6 +171,9 @@
   <styleItems>StyleItem.ЦветФонаОтрицательногоЗначения</styleItems>
   <styleItems>StyleItem.ЦветФонаПоложительногоЗначения</styleItems>
   <styleItems>StyleItem.ЦветФонаПредупреждения</styleItems>
+  <styles>Style.Blue</styles>
+  <styles>Style.Dark</styles>
+  <styles>Style.OneS</styles>
   <commonPictures>CommonPicture.BotFather</commonPictures>
   <commonPictures>CommonPicture.BotFatherВконтакте</commonPictures>
   <commonPictures>CommonPicture.GoogleMaps</commonPictures>
@@ -633,6 +663,20 @@
   <commonPictures>CommonPicture.ЭтапыПодтверждения</commonPictures>
   <commonPictures>CommonPicture.ЯндексКарты</commonPictures>
   <commonPictures>CommonPicture.УдалитьИнформация</commonPictures>
+  <commonPictures>CommonPicture.РазделЗамерыВремени</commonPictures>
+  <commonPictures>CommonPicture.РазделСборДанныхSQL</commonPictures>
+  <commonPictures>CommonPicture.РазделПериодыОтчетов</commonPictures>
+  <commonPictures>CommonPicture.РазделОповещения</commonPictures>
+  <commonPictures>CommonPicture.РазделМониторинг</commonPictures>
+  <commonPictures>CommonPicture.ЖурналИсключений</commonPictures>
+  <commonPictures>CommonPicture.ЖурналИсключений186</commonPictures>
+  <commonPictures>CommonPicture.РазделОповещения186</commonPictures>
+  <commonPictures>CommonPicture.РазделПериодыОтчетов186</commonPictures>
+  <commonPictures>CommonPicture.РазделСборДанныхSQL186</commonPictures>
+  <commonPictures>CommonPicture.РазделЗамерыВремени186</commonPictures>
+  <commonPictures>CommonPicture.РазделАдминистрирование186</commonPictures>
+  <commonPictures>CommonPicture.КомпьютерСервер186</commonPictures>
+  <commonPictures>CommonPicture.РазделИнтеграцияСJira</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
   <sessionParameters>SessionParameter.ВерсииШаблоновОграниченияДоступа</sessionParameters>
@@ -781,6 +825,10 @@
   <roles>Role.ЧтениеУчетныхЗаписейЭлектроннойПочты</roles>
   <roles>Role.ЧтениеШаблоновСообщений</roles>
   <roles>Role.ШифрованиеИРасшифровкаДанных</roles>
+  <roles>Role.ЧтениеБазовойНСИ2</roles>
+  <roles>Role.ЧтениеБазовойНСИЖурналИсключений</roles>
+  <roles>Role.ЧтениеБазовойНСИСборДанныхSQL</roles>
+  <roles>Role.ПравоПереводитьИсключенияВСтатусИгнорировать</roles>
   <commonTemplates>CommonTemplate.ДанныеПечатиОбщиеРеквизиты</commonTemplates>
   <commonTemplates>CommonTemplate.ДанныеПечатиРегистрСимволов</commonTemplates>
   <commonTemplates>CommonTemplate.ИнструкцияДляУстановкиКодаДляПредопределенногоУзла_ru</commonTemplates>
@@ -792,6 +840,7 @@
   <commonTemplates>CommonTemplate.КомпонентаПоискаСтрок</commonTemplates>
   <commonTemplates>CommonTemplate.ПолучениеДереваОбработчиковОбновления</commonTemplates>
   <commonTemplates>CommonTemplate.СтруктураПодчиненности</commonTemplates>
+  <commonTemplates>CommonTemplate.КомпонентаRegEx</commonTemplates>
   <filterCriteria>FilterCriterion.СвязанныеДокументы</filterCriteria>
   <filterCriteria>FilterCriterion.ФайлыВТоме</filterCriteria>
   <commonModules>CommonModule.GoogleПереводчик</commonModules>
@@ -1264,20 +1313,60 @@
   <commonModules>CommonModule.ЭлектроннаяПодписьКлиентСервер</commonModules>
   <commonModules>CommonModule.ЭлектроннаяПодписьКлиентСерверЛокализация</commonModules>
   <commonModules>CommonModule.ЭлектроннаяПодписьПереопределяемый</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыSLS</commonModules>
+  <commonModules>CommonModule.РаботаСSQLСервером</commonModules>
+  <commonModules>CommonModule.СборДанныхОПроизводительности</commonModules>
+  <commonModules>CommonModule.ПрочиеПроцедурыSQL</commonModules>
+  <commonModules>CommonModule.РаботаСSQLСерверомПовтИсп</commonModules>
+  <commonModules>CommonModule.СборДанныхЗамерыВремени</commonModules>
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебный</commonModules>
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.СборЗамеровВремениПовтИсп</commonModules>
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйКлиентПовтИсп</commonModules>
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйЛокализация</commonModules>
   <commonModules>CommonModule.ЭлектроннаяПодписьСлужебныйПовтИсп</commonModules>
   <commonModules>CommonModule.ЯндексПереводчик</commonModules>
+  <commonModules>CommonModule._НастройкиПользователейВызовСервера</commonModules>
+  <commonModules>CommonModule.МониторингСервисов</commonModules>
+  <commonModules>CommonModule.МониторингПереопределяемый</commonModules>
+  <commonModules>CommonModule._Почта</commonModules>
+  <commonModules>CommonModule._МАА_Процедуры</commonModules>
+  <commonModules>CommonModule.МониторингПереопределяемыйВызовСервера</commonModules>
+  <commonModules>CommonModule._ОбщиеФункцииHTTPСервисов</commonModules>
+  <commonModules>CommonModule.КоннекторHTTP</commonModules>
+  <commonModules>CommonModule._ФайлыКлиентСервер</commonModules>
+  <commonModules>CommonModule._ФайлыВызовСервера</commonModules>
+  <commonModules>CommonModule.ЖурналИсключенийПовтИсп</commonModules>
+  <commonModules>CommonModule.ЖурналИсключений</commonModules>
+  <commonModules>CommonModule.СтруктураСерверовПовтИсп</commonModules>
+  <commonModules>CommonModule.КодированиеОбщий</commonModules>
+  <commonModules>CommonModule.ЗапросыOdata</commonModules>
+  <commonModules>CommonModule.ПроведениеСервер</commonModules>
+  <commonModules>CommonModule._ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule._ЗамерыВремени</commonModules>
+  <commonModules>CommonModule.ИнтеграцияСJira</commonModules>
+  <commonModules>CommonModule.ИнтеграцияСJiraПовтИсп</commonModules>
+  <commonModules>CommonModule.РаботаСДиалогамиКлиент</commonModules>
+  <commonModules>CommonModule.УИ_КоннекторHTTP</commonModules>
+  <commonModules>CommonModule.УИ_КоннекторHTTPПереопределяемый</commonModules>
+  <commonModules>CommonModule.УИ_ОбщегоНазначения</commonModules>
+  <commonModules>CommonModule.УИ_ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.УИ_ОбщегоНазначенияПовтИсп</commonModules>
+  <commonModules>CommonModule.УИ_ОбщегоНазначенияКлиентСервер</commonModules>
+  <commonModules>CommonModule.УИ_ОбщегоНазначенияВызовСервера</commonModules>
+  <commonModules>CommonModule.УИ_ОбщегоНазначенияКлиентПовтИсп</commonModules>
+  <commonModules>CommonModule.ИнтеграцияСTelegram</commonModules>
+  <commonModules>CommonModule.ИнтеграцияСTelegramВызовСервераПовтИсп</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.ОбластьДанныхВспомогательныеДанные</commonAttributes>
   <commonAttributes>CommonAttribute.ОбластьДанныхОсновныеДанные</commonAttributes>
+  <commonAttributes>CommonAttribute.__ДатаСоздания</commonAttributes>
+  <commonAttributes>CommonAttribute.__ДатаИзменения</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>
@@ -1319,6 +1408,7 @@
   <xDTOPackages>XDTOPackage.ОбменДаннымиУправление</xDTOPackages>
   <xDTOPackages>XDTOPackage.ОбменДаннымиУправление_3_0_1_1</xDTOPackages>
   <xDTOPackages>XDTOPackage.Сообщения</xDTOPackages>
+  <xDTOPackages>XDTOPackage.TisPack</xDTOPackages>
   <webServices>WebService.EnterpriseDataExchange_1_0_1_1</webServices>
   <webServices>WebService.EnterpriseDataUpload_1_0_1_1</webServices>
   <webServices>WebService.Exchange</webServices>
@@ -1330,6 +1420,8 @@
   <webServices>WebService.RemoteAdministrationOfExchange_2_1_6_1</webServices>
   <webServices>WebService.RemoteAdministrationOfExchange_2_4_5_1</webServices>
   <webServices>WebService.RemoteControl</webServices>
+  <httpServices>HTTPService.РегистрацияИсключений</httpServices>
+  <httpServices>HTTPService._СостояниеСервисов</httpServices>
   <eventSubscriptions>EventSubscription.АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанных</eventSubscriptions>
   <eventSubscriptions>EventSubscription.АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанныхДокумент</eventSubscriptions>
   <eventSubscriptions>EventSubscription.АвтономнаяРаботаПроверитьВозможностьЗаписиОбщихДанныхКонстанта</eventSubscriptions>
@@ -1418,6 +1510,7 @@
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументовВзаимодействия</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьСнятьПометкуУдаленияЗаметок</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьСтатусИзмененияПометкиУдаленияПользователя</eventSubscriptions>
+  <eventSubscriptions>EventSubscription._КлючеваяОперация_ПередЗаписью</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ЗагрузкаКурсовВалют</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗаполнениеДанныхДляОграниченияДоступа</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЗаполнениеПараметровРаботыРасширений</scheduledJobs>
@@ -1459,7 +1552,20 @@
   <scheduledJobs>ScheduledJob.УдалениеПомеченныхОбъектов</scheduledJobs>
   <scheduledJobs>ScheduledJob.УдалениеУстаревшихПараметровРаботыВерсийРасширений</scheduledJobs>
   <scheduledJobs>ScheduledJob.УстановкаПериодаРассчитанныхИтогов</scheduledJobs>
+  <scheduledJobs>ScheduledJob.СборДанныхSQL</scheduledJobs>
+  <scheduledJobs>ScheduledJob.СборСтатистикиЗапросовSQL</scheduledJobs>
+  <scheduledJobs>ScheduledJob.СборСтатистикиОжиданийSQL</scheduledJobs>
+  <scheduledJobs>ScheduledJob.СинхронизацияЗамеровВремени</scheduledJobs>
   <scheduledJobs>ScheduledJob.ЭкспортОценкиПроизводительности</scheduledJobs>
+  <scheduledJobs>ScheduledJob.МониторингСервисов</scheduledJobs>
+  <scheduledJobs>ScheduledJob._ОтложеннаяОтправкаПисем</scheduledJobs>
+  <scheduledJobs>ScheduledJob.АрхивироватьОчередьПочты</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОтложеннаяОбработкаИсключенийВБазах1С</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ФормированиеОповещенийОбИсключениях</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ВозвратОтложенныхИсключенийКОбработке</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОповещениеОДлительныхЗапросахSQL</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОповещениеОДлительныхТранзакцияхSQL</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОбновитьЗадачиJira</scheduledJobs>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <functionalOptions>FunctionalOption.АктуальнаяДатаОбновленияПовторноИспользуемыхЗначенийМРО</functionalOptions>
   <functionalOptions>FunctionalOption.ВариантыВерсионированияОбъектов</functionalOptions>
@@ -1528,6 +1634,8 @@
   <functionalOptions>FunctionalOption.СтандартныеПодсистемыВЛокальномРежиме</functionalOptions>
   <functionalOptions>FunctionalOption.СтандартныеПодсистемыВМоделиСервиса</functionalOptions>
   <functionalOptions>FunctionalOption.ХранитьФайлыВТомахНаДиске</functionalOptions>
+  <functionalOptions>FunctionalOption.СохранятьПланыЗапросовSQL</functionalOptions>
+  <functionalOptions>FunctionalOption.ИнтеграцияСTelegram</functionalOptions>
   <functionalOptionsParameters>FunctionalOptionsParameter.ДополнительныеОтчетыИОбработкиОбъектНазначения</functionalOptionsParameters>
   <functionalOptionsParameters>FunctionalOptionsParameter.ДополнительныеОтчетыИОбработкиТипФормы</functionalOptionsParameters>
   <functionalOptionsParameters>FunctionalOptionsParameter.ТипВерсионируемогоОбъекта</functionalOptionsParameters>
@@ -1594,6 +1702,7 @@
   <definedTypes>DefinedType.СубъектПерсональныхДанных</definedTypes>
   <definedTypes>DefinedType.УточнениеКонтекстаПроверокВеденияУчета</definedTypes>
   <definedTypes>DefinedType.ФизическоеЛицо</definedTypes>
+  <definedTypes>DefinedType.ТипыОснованийЗадачJira</definedTypes>
   <commonCommands>CommonCommand.АвтономнаяРабота</commonCommands>
   <commonCommands>CommonCommand.АвтономнаяРаботаВМоделиСервиса</commonCommands>
   <commonCommands>CommonCommand.ВремяТекущегоСеанса</commonCommands>
@@ -1652,6 +1761,8 @@
   <commonCommands>CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием</commonCommands>
   <commonCommands>CommonCommand.ФайлыВТоме</commonCommands>
   <commonCommands>CommonCommand.УдалитьНастройкуСинхронизации</commonCommands>
+  <commonCommands>CommonCommand.ПараметрыДоступа</commonCommands>
+  <commonCommands>CommonCommand._НастройкиПользователейКоманда</commonCommands>
   <commandGroups>CommandGroup.Взаимодействия</commandGroups>
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
@@ -1808,10 +1919,22 @@
   <constants>Constant.УсовершенствоватьПодписиАвтоматически</constants>
   <constants>Constant.УсовершенствоватьПодписиСДаты</constants>
   <constants>Constant.УчетнаяЗаписьДляВосстановленияПароля</constants>
+  <constants>Constant.ПровайдерSQL</constants>
+  <constants>Constant.СохранятьПланыЗапросовSQL</constants>
   <constants>Constant.ХранитьФайлыВТомахНаДиске</constants>
   <constants>Constant.ЭтоАвтономноеРабочееМесто</constants>
   <constants>Constant.УдалитьЛогинДоступаКСервисуMorpher</constants>
   <constants>Constant.УдалитьНастройкиВходаПользователей</constants>
+  <constants>Constant.База1СДляПросмотраИсключенийПоУмолчанию</constants>
+  <constants>Constant.ГруппаПолучателейИсключенийПоУмолчанию</constants>
+  <constants>Constant.ГруппаОбязательныхПолучателейИсключений</constants>
+  <constants>Constant.УчетнаяЗаписьLync</constants>
+  <constants>Constant.СерверДляИнтеграцииСJira</constants>
+  <constants>Constant.ШаблонДляСозданияНовыхЗадач</constants>
+  <constants>Constant.ГруппаПолучателейПисемОДлиттельныхЗапросов</constants>
+  <constants>Constant.ДлительностьЗапросовСОповещениями</constants>
+  <constants>Constant.УчетнаяЗаписьTelegramПоУмолчанию</constants>
+  <constants>Constant.ИнтеграцияСTelegram</constants>
   <commonForms>CommonForm.АвтономнаяРабота</commonForms>
   <commonForms>CommonForm.АвтономнаяРаботаВМоделиСервиса</commonForms>
   <commonForms>CommonForm.АдреснаяКнига</commonForms>
@@ -1907,8 +2030,10 @@
   <commonForms>CommonForm.ФормаВариантаОтчета</commonForms>
   <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>
   <commonForms>CommonForm.ФормаОтчета</commonForms>
+  <commonForms>CommonForm.ФормаРедактированияПараметровДоступа</commonForms>
   <commonForms>CommonForm.ФормаПоиска</commonForms>
   <commonForms>CommonForm.ЭлектроннаяПодпись</commonForms>
+  <commonForms>CommonForm._НастройкиПользователей</commonForms>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВариантыОтветовАнкет</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
@@ -1975,6 +2100,43 @@
   <catalogs>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ЯзыкиПечатныхФорм</catalogs>
+  <catalogs>Catalog.СерверыSQL</catalogs>
+  <catalogs>Catalog.БазыДанных1С</catalogs>
+  <catalogs>Catalog.Кластеры1СПредприятия</catalogs>
+  <catalogs>Catalog.Версии1СПредприятия</catalogs>
+  <catalogs>Catalog.Конфигурации1С</catalogs>
+  <catalogs>Catalog.БазыДанныхSQL</catalogs>
+  <catalogs>Catalog.ВидыОжиданийSQL</catalogs>
+  <catalogs>Catalog.ГрафикиПериодовПостроенияОтчетов</catalogs>
+  <catalogs>Catalog.ПараметрыИмпортаЗамеровВремениSQL</catalogs>
+  <catalogs>Catalog.ЗапросыSQL</catalogs>
+  <catalogs>Catalog.Компьютеры</catalogs>
+  <catalogs>Catalog.КомандыМониторингаСервисов</catalogs>
+  <catalogs>Catalog.СохраняемыеПараметрыБаз1С</catalogs>
+  <catalogs>Catalog.ИдентификаторыОбъектовМетаданныхКонфигураций</catalogs>
+  <catalogs>Catalog.СсылкаВБазе1С</catalogs>
+  <catalogs>Catalog.ГруппыПолучателейРассылок</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.ПроверкиМониторингаСервисов</catalogs>
+  <catalogs>Catalog.ТипыСекретовКонфигураций1С</catalogs>
+  <catalogs>Catalog.ИсключенияВБазах1С</catalogs>
+  <catalogs>Catalog.ПользователиБаз1С</catalogs>
+  <catalogs>Catalog.ВерсииКонфигураций1С</catalogs>
+  <catalogs>Catalog.КатегорииИсключений</catalogs>
+  <catalogs>Catalog.ПочтовыеГруппыИЧаты</catalogs>
+  <catalogs>Catalog._НастройкиПодключенийКСервисамHTTP</catalogs>
+  <catalogs>Catalog.jiraСервера</catalogs>
+  <catalogs>Catalog.jiraПроекты</catalogs>
+  <catalogs>Catalog.jiraТипыЗапросов</catalogs>
+  <catalogs>Catalog.jiraСтатусы</catalogs>
+  <catalogs>Catalog.jiraКатегорииСтатусов</catalogs>
+  <catalogs>Catalog.jiraПользователи</catalogs>
+  <catalogs>Catalog.jiraШаблонДляНовыхЗадач</catalogs>
+  <catalogs>Catalog.jiraЗадачи</catalogs>
+  <catalogs>Catalog.jiraРеквизитыЗадач</catalogs>
+  <catalogs>Catalog.JiraГрафикРаботыДляРасчетов</catalogs>
+  <catalogs>Catalog.УчетныеЗаписиTelegram</catalogs>
+  <catalogs>Catalog.ТипыСерверовSQL</catalogs>
   <documents>Document.Анкета</documents>
   <documents>Document.Встреча</documents>
   <documents>Document.ЗапланированноеВзаимодействие</documents>
@@ -2069,6 +2231,11 @@
   <enums>Enum.ФорматыХраненияОдностраничныхФайлов</enums>
   <enums>Enum.ЦветаЗаметок</enums>
   <enums>Enum.ЦветностиИзображения</enums>
+  <enums>Enum.ТипыКоманд</enums>
+  <enums>Enum.ИмяТипа1С</enums>
+  <enums>Enum.ПолФизическогоЛица</enums>
+  <enums>Enum.ВариантыРешенийПоИсключениям</enums>
+  <enums>Enum.JiraПриоритеты</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.АнализОпроса</reports>
@@ -2099,6 +2266,11 @@
   <reports>Report.СогласияНаОбработкуПерсональныхДанныхИстекающие</reports>
   <reports>Report.СостояниеУчетнойЗаписиDSS</reports>
   <reports>Report.УниверсальныйОтчет</reports>
+  <reports>Report.ДолгиеЗапросыSQL</reports>
+  <reports>Report.СтатистикаЗапросовSQL</reports>
+  <reports>Report.ДинамикаОжиданийSQL</reports>
+  <reports>Report.АнализЗамеровПроизводительности</reports>
+  <reports>Report.ДинамикаДлительностиОперации</reports>
   <dataProcessors>DataProcessor.АвтоматическоеИзвлечениеТекстов</dataProcessors>
   <dataProcessors>DataProcessor.АктивныеПользователи</dataProcessors>
   <dataProcessors>DataProcessor.БлокировкаРаботыПользователей</dataProcessors>
@@ -2167,6 +2339,16 @@
   <dataProcessors>DataProcessor.УправлениеИтогамиИАгрегатами</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеПодключениемDSS</dataProcessors>
   <dataProcessors>DataProcessor.УстановкаОбновлений</dataProcessors>
+  <dataProcessors>DataProcessor.РМ_ПросмотрСостоянияSQL</dataProcessors>
+  <dataProcessors>DataProcessor._ирОболочкаРегВыражение</dataProcessors>
+  <dataProcessors>DataProcessor.РММониторинг</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаМетаданныхOdata</dataProcessors>
+  <dataProcessors>DataProcessor.ЖурналИсключенийПанельАдминистрирования</dataProcessors>
+  <dataProcessors>DataProcessor.ОтправкаСообщенийЖурналаРегистрацииВЖурналИсключений</dataProcessors>
+  <dataProcessors>DataProcessor.СборДанныхSQLПанельАдминистрирования</dataProcessors>
+  <dataProcessors>DataProcessor.ЗамерыВремениПанельАдминистрирования</dataProcessors>
+  <dataProcessors>DataProcessor.ОповещениеПанельАдминистрирования</dataProcessors>
+  <dataProcessors>DataProcessor.jiraПанельАдминистрирования</dataProcessors>
   <informationRegisters>InformationRegister.АдресныеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
@@ -2325,8 +2507,37 @@
   <informationRegisters>InformationRegister.УдалитьЗамерыВремени3</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьНастройкиТранспортаОбмена</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьОбластиПерсональныхДанных</informationRegisters>
+  <informationRegisters>InformationRegister.СобранныеЗапросыSQL</informationRegisters>
+  <informationRegisters>InformationRegister.НастройкиСбораДанныхSQL</informationRegisters>
+  <informationRegisters>InformationRegister.СобранныеТранзакцииSQL</informationRegisters>
+  <informationRegisters>InformationRegister.ДатыСобранныхЗапросовSQL</informationRegisters>
+  <informationRegisters>InformationRegister.ДатыСобранныхТранзакцийSQL</informationRegisters>
+  <informationRegisters>InformationRegister.СтатистикаПоЗапросамSQL</informationRegisters>
+  <informationRegisters>InformationRegister.СтатистикаПоЗапросамSQLОбщиеДанные</informationRegisters>
+  <informationRegisters>InformationRegister.СтатистикаПоОжиданиямSQL</informationRegisters>
+  <informationRegisters>InformationRegister.КэшСтатистикаПоОжиданиямSQL</informationRegisters>
+  <informationRegisters>InformationRegister.ПериодыПостроенияОтчетов</informationRegisters>
+  <informationRegisters>InformationRegister.НастройкиИмпортаЗамеровВремени</informationRegisters>
+  <informationRegisters>InformationRegister.ГраницыИмпортаЗамеровПроизводительности</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьРезультатыОбменаДанными</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьХранимыеФайлыВерсий</informationRegisters>
+  <informationRegisters>InformationRegister.СтатусШаговПроверкиМониторингаСервисов</informationRegisters>
+  <informationRegisters>InformationRegister.ПараметрыКомандМониторинга</informationRegisters>
+  <informationRegisters>InformationRegister.ЗначенияСохраняемыхПараметровБаз1С</informationRegisters>
+  <informationRegisters>InformationRegister.ФИОФизическихЛиц</informationRegisters>
+  <informationRegisters>InformationRegister.УС_ОчередьПочта</informationRegisters>
+  <informationRegisters>InformationRegister.СтатистикаШаговПроверкиМониторингаСервисов</informationRegisters>
+  <informationRegisters>InformationRegister.УС_ОчередьПочтаАрхив</informationRegisters>
+  <informationRegisters>InformationRegister.ИсключенияВБазах1С</informationRegisters>
+  <informationRegisters>InformationRegister.ОчередьОтложеннойОбработчиИсключенийВБазах1C</informationRegisters>
+  <informationRegisters>InformationRegister.СтатистикаПоИсключениямВБазах1С</informationRegisters>
+  <informationRegisters>InformationRegister.НастройкиИсключенийПоУмолчанию</informationRegisters>
+  <informationRegisters>InformationRegister.ИсторияОбработкиИсключенийБаз1С</informationRegisters>
+  <informationRegisters>InformationRegister.jiraСвязанныеЗадачи</informationRegisters>
+  <informationRegisters>InformationRegister.jiraСписанноеВремяПоЗадаче</informationRegisters>
+  <informationRegisters>InformationRegister.JiraПоследняяЗагрузкаЗадач</informationRegisters>
+  <informationRegisters>InformationRegister.jiraИсторияИзмененияЗадач</informationRegisters>
+  <informationRegisters>InformationRegister.jiraСоставИзмененияЗадач</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВопросыДляАнкетирования</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ОбъектыАдресацииЗадач</chartsOfCharacteristicTypes>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84e55e71-efe0-4815-b1d2-58d2668849d1">
+  <name>_МАА_Процедуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>МАА процедуры</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

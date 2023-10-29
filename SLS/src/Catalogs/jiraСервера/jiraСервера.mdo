@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="419d309f-5aca-41c6-9ba0-04416c305720">
+  <producedTypes>
+    <objectType typeId="0bc2f392-b6fb-40cb-9e0a-0576c0f2ed1c" valueTypeId="6a45591a-dc42-46a7-821f-3e6fcd7f6953"/>
+    <refType typeId="9124cb73-7155-4f85-bb1e-484765d4d7d8" valueTypeId="00273210-e281-48c2-b077-619cb16e414d"/>
+    <selectionType typeId="5e1ea8df-2762-4af9-8014-0ad9dbfe42c1" valueTypeId="8abac3bf-581e-4c4c-a589-e9bcc6dd23b5"/>
+    <listType typeId="e0612404-87d7-424b-abda-4008aa75cd7e" valueTypeId="ca59ae18-bf73-45b3-baca-dc2c3f81b41b"/>
+    <managerType typeId="1a9db8be-8f30-4d72-ba59-4ed196b200b6" valueTypeId="8cc82cd2-e03e-4dce-85c5-e3fe8d6b27df"/>
+  </producedTypes>
+  <name>jiraСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Jira сервера</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.jiraСервера.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.jiraСервера.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.jiraСервера.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="270e1f75-c34d-47d7-8479-bb30b86bcab8">
+    <name>НастрорйкиПодключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настрорйки подключения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef._НастройкиПодключенийКСервисамHTTP</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="35142a0c-3c09-4072-8a6b-8202cabe211b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

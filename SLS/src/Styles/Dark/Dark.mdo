@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82e65914-2767-4fc3-b8f3-a0cc8cbf035a">
+  <name>Dark</name>
+  <synonym>
+    <key>en</key>
+    <value>Dark</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Темный</value>
+  </synonym>
+  <synonym>
+    <key>bg</key>
+    <value>Dark</value>
+  </synonym>
+</mdclass:Style>

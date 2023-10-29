@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf8e7f41-c7b1-410d-b87c-46274ff8656c">
+  <producedTypes>
+    <objectType typeId="a7c86653-40bf-41ec-8e31-cdae51cbbd53" valueTypeId="30a3d7ed-dd39-483f-83fe-e7fdcc543490"/>
+    <managerType typeId="9128b580-1e18-4677-ba38-970282e932ef" valueTypeId="48805084-082b-4e8f-a19d-6922fde3df1e"/>
+  </producedTypes>
+  <name>ДолгиеЗапросыSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Долгие запросы SQL</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ДолгиеЗапросыSQL.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="cfddafe2-510d-4753-bf40-4350bcf62b31">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d91316d-1d62-419d-8284-9f689618bbf7">
+  <producedTypes>
+    <objectType typeId="b991ee5a-0d93-401d-94db-8a0bdc7a7940" valueTypeId="53cd0ad4-05b1-42df-becd-2ab9fee1a8bd"/>
+    <managerType typeId="3d4764bb-f608-4aa8-8089-a9acbf919772" valueTypeId="4d7f0c73-8a57-4b2e-bf20-82f0e04870ed"/>
+  </producedTypes>
+  <name>РМ_ПросмотрСостоянияSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Просмотр состояния SQL (раб. место)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РМ_ПросмотрСостоянияSQL.Form.Форма</defaultForm>
+  <forms uuid="ea4bc7a2-6cf7-4fab-bfd6-8519818d3d13">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05bce28f-50b3-4f24-9f89-cdae46ad6f9e">
+  <name>ЖурналИсключенийПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал исключений повт исп</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

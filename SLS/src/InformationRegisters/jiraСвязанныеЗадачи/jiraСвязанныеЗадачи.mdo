@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd8b6a70-21f3-4869-a1db-f730e957a18a">
+  <producedTypes>
+    <selectionType typeId="ed628cb3-3a23-4fd7-9898-a3f3e1df4805" valueTypeId="799f2e8c-07d3-4fb5-87d9-be355ec6bc5a"/>
+    <listType typeId="49151738-8736-426f-adeb-90b5802f8f9b" valueTypeId="595424bb-87a3-4514-b3fb-d41ac0f21292"/>
+    <managerType typeId="cb99b0a7-c2f6-4fca-b8ab-1ffc3ff917d8" valueTypeId="f5de6a6a-035b-4d84-af36-88507d8baf11"/>
+    <recordSetType typeId="76fb081d-984c-4df4-bf04-ce74e82e9269" valueTypeId="1791ade8-2f7f-46be-afae-a277b1d51b70"/>
+    <recordKeyType typeId="109ca996-3144-4f1c-b6ac-0bb65fb4769a" valueTypeId="915a0fa4-85bf-479f-a4c8-ba55c7900181"/>
+    <recordType typeId="5610c8c4-22fc-4bab-84d3-4e2aaf847091" valueTypeId="d4ea7b87-16a7-4ce4-a90b-711ab17c6d1e"/>
+    <recordManagerType typeId="fc55bd63-01c8-4944-97d5-9f4dd772940c" valueTypeId="aff6b84b-c80b-453d-8f7c-60231c790d43"/>
+  </producedTypes>
+  <name>jiraСвязанныеЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Jira связанные задачи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cf6429f4-953e-44c2-87f6-3cd66cc9c06e">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ТипыОснованийЗадачJira</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="55d66f98-0c63-4c01-a4a1-aa9e68367484">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.jiraПроекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a5cf41ec-be84-42d3-8714-4385dd59cfc6">
+    <name>ДатаСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата создания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="2a521033-3c0e-4bd2-99f6-e510ce864856">
+    <name>id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Id</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="138434f6-4ea1-4fea-8975-baf9daee855f">
+    <name>Jira</name>
+    <synonym>
+      <key>ru</key>
+      <value>Jira</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.jiraСервера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ae4a24eb-a7c1-45ae-97fa-165c77daf32d">
+    <name>key</name>
+    <synonym>
+      <key>ru</key>
+      <value>Key</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>25</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

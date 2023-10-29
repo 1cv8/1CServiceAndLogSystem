@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="405bf6fe-473a-40cf-ba05-5eed38ed86f5">
+  <producedTypes>
+    <selectionType typeId="75dfc4b6-6786-4625-bbc0-6df0dce3c02a" valueTypeId="f708cb32-6b05-4393-940c-66516c19a68c"/>
+    <listType typeId="6c41bd71-dabc-437d-ad94-edd0d5202c47" valueTypeId="def6e057-2b48-4ed6-816d-d38172421766"/>
+    <managerType typeId="4bd10097-aa50-4e44-9603-816ffebd6b83" valueTypeId="0719153d-9655-44c0-9e27-6814dd606aaa"/>
+    <recordSetType typeId="a70256b4-a348-44a6-b905-ee1b7bfa61ea" valueTypeId="698329ed-3d80-4d18-9b03-c73fab9b4d4f"/>
+    <recordKeyType typeId="928df539-3124-4d61-b736-74ef200f93e3" valueTypeId="fa9bfc97-ac39-4a90-ba0f-245137b75f4c"/>
+    <recordType typeId="7b911d88-30d5-4fa5-9e62-f052f3ded4fa" valueTypeId="649b9ff4-b634-4e8a-b803-bce691116df3"/>
+    <recordManagerType typeId="eba5e1ca-afd8-4381-9302-c801993f4f17" valueTypeId="ce0a3846-9d3f-4060-b44b-023683ff31e5"/>
+  </producedTypes>
+  <name>JiraПоследняяЗагрузкаЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Jira последняя загрузка задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0649e2d5-ebcb-48b3-a766-66cabf2c0239">
+    <name>ДатаИВремяПоследнейЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата и время последней загрузки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ab084767-f1ec-4af2-b177-2860d0058b19">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.jiraПроекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

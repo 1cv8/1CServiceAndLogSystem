@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d30c791-5b2c-4035-b371-3af15486bb43">
+  <producedTypes>
+    <objectType typeId="aac7f8aa-673b-47b8-b224-b6139b37acc8" valueTypeId="02e9ae09-b695-4f40-a508-d31297b01de4"/>
+    <managerType typeId="58af5499-dcd9-4630-a445-dfd9c28eef48" valueTypeId="de94794e-fc57-439e-ac98-9c56c90a6035"/>
+  </producedTypes>
+  <name>ЗагрузкаМетаданныхOdata</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка метаданных odata</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаМетаданныхOdata.Form.Форма</defaultForm>
+  <attributes uuid="b418b811-7ff3-41e0-bce9-133fc7ff8f86">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конфигурации1С</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="9217e9a5-fffc-45a9-b441-a78f6f8cf681">
+    <name>База</name>
+    <synonym>
+      <key>ru</key>
+      <value>База</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БазыДанных1С</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.ПоставляемаяКонфигурация</name>
+      <field>DataProcessor.ЗагрузкаМетаданныхOdata.Attribute.Конфигурация</field>
+    </choiceParameterLinks>
+  </attributes>
+  <forms uuid="c49a97a8-9ab7-41be-b4aa-7828c3e0a3a8">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

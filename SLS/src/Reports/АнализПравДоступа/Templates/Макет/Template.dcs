@@ -3405,7 +3405,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаПросмотр"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -3429,7 +3429,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаРедактирование"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -3453,7 +3453,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаСоздание"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -3816,7 +3816,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаПросмотр"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -3840,7 +3840,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаРедактирование"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -3864,7 +3864,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаСоздание"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -4136,7 +4136,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаПросмотр"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -4160,7 +4160,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаРедактирование"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -4184,7 +4184,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаСоздание"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -4494,7 +4494,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаПросмотр"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -4518,7 +4518,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаРедактирование"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -4542,7 +4542,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаСоздание"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -4809,7 +4809,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаПросмотр"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -4833,7 +4833,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаРедактирование"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -4857,7 +4857,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаСоздание"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -4956,7 +4956,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаПросмотр"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -4980,7 +4980,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаРедактирование"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -5004,7 +5004,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаСоздание"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -5256,7 +5256,7 @@
 							<dcsset:appearance>
 								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 									<dcscor:parameter>Картинка</dcscor:parameter>
-									<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:Папка"/>
+									<dcscor:value xsi:type="v8ui:Picture"/>
 								</dcscor:item>
 							</dcsset:appearance>
 						</dcsset:item>
@@ -5285,7 +5285,7 @@
 							<dcsset:appearance>
 								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 									<dcscor:parameter>Картинка</dcscor:parameter>
-									<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:НаследованиеОтключеноСПапкой"/>
+									<dcscor:value xsi:type="v8ui:Picture"/>
 								</dcscor:item>
 							</dcsset:appearance>
 						</dcsset:item>
@@ -5314,7 +5314,7 @@
 							<dcsset:appearance>
 								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 									<dcscor:parameter>Картинка</dcscor:parameter>
-									<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:НаследованиеВключеноСПапкой"/>
+									<dcscor:value xsi:type="v8ui:Picture"/>
 								</dcscor:item>
 							</dcsset:appearance>
 						</dcsset:item>
@@ -5356,7 +5356,7 @@
 						<dcsset:appearance>
 							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 								<dcscor:parameter>Картинка</dcscor:parameter>
-								<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:НаследованиеВключено"/>
+								<dcscor:value xsi:type="v8ui:Picture"/>
 							</dcscor:item>
 						</dcsset:appearance>
 					</dcsset:item>
@@ -5634,7 +5634,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаПросмотр"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -5658,7 +5658,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаРедактирование"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -5682,7 +5682,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаСоздание"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -6004,7 +6004,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаПросмотр"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -6028,7 +6028,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаРедактирование"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -6052,7 +6052,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаСоздание"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -6369,7 +6369,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаПросмотр"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -6393,7 +6393,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаРедактирование"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>
@@ -6417,7 +6417,7 @@
 						</dcscor:item>
 						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture" ref="v8ui:УровеньДоступаСоздание"/>
+							<dcscor:value xsi:type="v8ui:Picture"/>
 						</dcscor:item>
 					</dcsset:appearance>
 				</dcsset:item>

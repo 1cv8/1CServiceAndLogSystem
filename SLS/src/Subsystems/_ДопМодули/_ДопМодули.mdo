@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2bb19ad0-bf0b-4639-9f90-420fecfc6f42">
+  <name>_ДопМодули</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доп модули</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>XDTOPackage.TisPack</content>
+  <content>CommonModule._Почта</content>
+  <content>CommonModule._МАА_Процедуры</content>
+  <content>InformationRegister.УС_ОчередьПочта</content>
+</mdclass:Subsystem>

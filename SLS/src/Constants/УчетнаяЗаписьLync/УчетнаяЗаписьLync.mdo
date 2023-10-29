@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00f819de-8790-41b9-8cbc-f136a70bc302">
+  <producedTypes>
+    <managerType typeId="dab33bfc-95e8-4dcd-8d1c-1dd5c3813404" valueTypeId="30e0464b-fec5-470a-b5b9-3e161de11b38"/>
+    <valueManagerType typeId="3b3dd970-1f67-4a97-92fc-fda5c3d5b0c4" valueTypeId="70ecb6dc-1d3f-4324-8deb-23f7e1d4001e"/>
+    <valueKeyType typeId="92914a33-b3fb-4623-826a-6899a588fa89" valueTypeId="33ae39db-c0f7-42ce-ae9a-1b7971d188f2"/>
+  </producedTypes>
+  <name>УчетнаяЗаписьLync</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная запись lync</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

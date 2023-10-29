@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0a45041-eb8d-4009-9dcd-520edb27d1f5">
+  <name>СборДанныхSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сбор данных SQL</value>
+  </synonym>
+  <methodName>CommonModule.СборДанныхОПроизводительности.Регламент_СборДанныхSQL</methodName>
+  <description>Сбор данных SQL</description>
+  <predefined>true</predefined>
+  <restartIntervalOnFailure>20</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

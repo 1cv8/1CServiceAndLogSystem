@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8bbbdc8e-68b7-4a1b-b920-28792aa26973">
+  <name>СборДанныхSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сбор данных SQL</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделСборДанныхSQL186</picture>
+  </picture>
+  <content>InformationRegister.СобранныеЗапросыSQL</content>
+  <content>InformationRegister.НастройкиСбораДанныхSQL</content>
+  <content>InformationRegister.СобранныеТранзакцииSQL</content>
+  <content>InformationRegister.ДатыСобранныхЗапросовSQL</content>
+  <content>InformationRegister.ДатыСобранныхТранзакцийSQL</content>
+  <content>DataProcessor.РМ_ПросмотрСостоянияSQL</content>
+  <content>Report.ДолгиеЗапросыSQL</content>
+  <content>InformationRegister.СтатистикаПоЗапросамSQLОбщиеДанные</content>
+  <content>InformationRegister.СтатистикаПоЗапросамSQL</content>
+  <content>Report.СтатистикаЗапросовSQL</content>
+  <content>InformationRegister.СтатистикаПоОжиданиямSQL</content>
+  <content>InformationRegister.КэшСтатистикаПоОжиданиямSQL</content>
+  <content>Catalog.ВидыОжиданийSQL</content>
+  <content>Report.ДинамикаОжиданийSQL</content>
+  <content>FunctionalOption.СохранятьПланыЗапросовSQL</content>
+  <content>Constant.СохранятьПланыЗапросовSQL</content>
+  <content>CommonPicture.РазделСборДанныхSQL</content>
+  <content>Catalog.ЗапросыSQL</content>
+  <content>Constant.ПровайдерSQL</content>
+  <content>DataProcessor.СборДанныхSQLПанельАдминистрирования</content>
+  <content>Constant.ГруппаПолучателейПисемОДлиттельныхЗапросов</content>
+  <content>ScheduledJob.ОповещениеОДлительныхЗапросахSQL</content>
+  <content>ScheduledJob.ОповещениеОДлительныхТранзакцияхSQL</content>
+  <content>Constant.ДлительностьЗапросовСОповещениями</content>
+  <content>Catalog.ТипыСерверовSQL</content>
+</mdclass:Subsystem>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11ee1acb-48fb-4eca-b5c9-df5f4e16e537">
+  <producedTypes>
+    <objectType typeId="ca4f1e4b-14ef-4a63-a96d-11951edbfe2a" valueTypeId="449cd09c-0c96-4c06-9590-b5f7bab9dc2f"/>
+    <refType typeId="4de78de0-670d-47a0-a59a-d68ce66b52c8" valueTypeId="6c3d7b4a-b958-496b-aefb-c1008f796fca"/>
+    <selectionType typeId="6e80eb89-748b-4100-bde1-eaf9fe604c61" valueTypeId="3762a2d9-3595-42e5-8829-b4cb2c96ab9f"/>
+    <listType typeId="71a7844c-85d7-449e-ab0e-9c274e569852" valueTypeId="666cb418-e0c0-44e1-b4e2-164a763e69ee"/>
+    <managerType typeId="6c477742-5cb3-4668-bfad-a1bd8ca0543b" valueTypeId="a867035c-30d1-4281-81e4-076dbcfd928d"/>
+  </producedTypes>
+  <name>СерверыSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Серверы SQL</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СерверыSQL.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СерверыSQL.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СерверыSQL.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="33d0b242-1b9b-4be0-ac87-219be63090a4">
+    <name>СетевоеИмя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сетевое имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d9cb1570-db82-41a2-8962-8b7f73f68cfa">
+    <name>Порт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порт</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1fc37c4b-6647-4f61-a875-9044a2a7f6a5">
+    <name>ТипСервера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип сервера</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыСерверовSQL</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="cde07723-c76f-431b-9d4c-a1c82a7bb7cb">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="4e879b40-0853-4c1f-a1ba-6a09fd45f74d">
+    <name>ТестСоединения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест соединения</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.СерверыSQL</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

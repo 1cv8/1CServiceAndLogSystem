@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1185620-8165-49c4-855a-169c55c2e21a">
+  <producedTypes>
+    <managerType typeId="a9101c92-eb5d-4561-b975-539dfd164b5b" valueTypeId="8e4ff27b-1c53-4d0d-b24f-34fbb7442706"/>
+    <valueManagerType typeId="d8a4e619-b33d-4b8e-888f-542af522c951" valueTypeId="4ecd29d0-9991-4a9d-8c4b-6407dedcffb1"/>
+    <valueKeyType typeId="8ce3cbb4-985e-42be-8195-58fdeac98098" valueTypeId="ff304756-85c4-481f-a15f-f2eb1bb8bb9d"/>
+  </producedTypes>
+  <name>СохранятьПланыЗапросовSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранять планы запросов SQL</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

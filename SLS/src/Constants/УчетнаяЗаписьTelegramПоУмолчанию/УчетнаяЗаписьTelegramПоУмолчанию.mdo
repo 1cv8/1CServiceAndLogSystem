@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73c2f4d4-bbd9-458d-8cb7-461e0a075fe6">
+  <producedTypes>
+    <managerType typeId="ed52e77c-6113-48ea-a23b-f131a8729aaf" valueTypeId="c3c45cf8-0005-4d52-8aa2-2d0278bee917"/>
+    <valueManagerType typeId="6cca4aba-01ca-4955-9cf8-08aaf8bc59bf" valueTypeId="3c64c270-ef08-4ea8-b5ed-de7493d92696"/>
+    <valueKeyType typeId="5f23ad65-e4fc-432c-8b12-0585f6962d85" valueTypeId="03a15deb-aea5-4a6c-8f32-53b946fe6922"/>
+  </producedTypes>
+  <name>УчетнаяЗаписьTelegramПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная запись telegram (по умолчанию)</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.УчетныеЗаписиTelegram</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

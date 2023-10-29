@@ -4203,6 +4203,30 @@
       <common>true</common>
     </edit>
     <settingsSavedData xsi:type="form:DataPath">
+      <segments>1/0:314ac8ca-8845-40c2-b844-91beb05fb601</segments>
+    </settingsSavedData>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>1/0:37ae1946-9436-47ef-8b8c-17ed0a24971c</segments>
+    </settingsSavedData>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>1/0:84796b00-79db-42ba-94d0-5bf543e09cd6</segments>
+    </settingsSavedData>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>1/0:a792b3dc-ac80-492b-bd94-83eb0438ba9f</segments>
+    </settingsSavedData>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>1/0:b1fbfbfe-766f-4018-9491-507748193808</segments>
+    </settingsSavedData>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>1/0:c0688817-fd73-4ead-b9dd-ec966780a2c2</segments>
+    </settingsSavedData>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>1/0:d844d861-fbe9-4391-89e3-00e505b33b33</segments>
+    </settingsSavedData>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>1/0:e55dfadb-8e12-4808-ad90-e891a4644548</segments>
+    </settingsSavedData>
+    <settingsSavedData xsi:type="form:DataPath">
       <segments>Объект.АдресЭлектроннойПочты</segments>
     </settingsSavedData>
     <settingsSavedData xsi:type="form:DataPath">

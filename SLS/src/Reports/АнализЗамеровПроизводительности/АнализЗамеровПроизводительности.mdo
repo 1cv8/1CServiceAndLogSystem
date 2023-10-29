@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e949ec64-8f6a-4d4b-8a49-0bfe5d9eb258">
+  <producedTypes>
+    <objectType typeId="1466871a-5e3c-4a30-9711-dfb1fb0e4ad6" valueTypeId="e4e99aa7-b6d0-4aee-a253-211f3f072088"/>
+    <managerType typeId="835fe932-b090-43ab-b2bb-8f7c845dabaf" valueTypeId="01596f2f-2bf2-40cc-bbc4-6830c8d248b5"/>
+  </producedTypes>
+  <name>АнализЗамеровПроизводительности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ замеров производительности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.АнализЗамеровПроизводительности.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="0b9aba81-b575-4f49-afbf-e5fc7d03e8f0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

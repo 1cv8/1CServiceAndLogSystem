@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5b8ebd6-ad6a-4f84-9844-a9b7ee52f584">
+  <producedTypes>
+    <refType typeId="4f51b98c-7b6b-4426-b873-4ca77ca5f7da" valueTypeId="6bdcb0d8-b707-4f20-b9d0-d865af7ebab6"/>
+    <listType typeId="9822bedd-9d63-4f04-8374-95cc58edece7" valueTypeId="49b6df51-4130-4b98-9836-a4049023d73f"/>
+    <managerType typeId="c0831ac2-0d05-4f3f-8e7c-519d6255ffc6" valueTypeId="e9d1fe87-b21a-4260-b175-c4314b8d0e28"/>
+  </producedTypes>
+  <name>ТипыКоманд</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы команд</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2bc1db48-26c8-4446-9d67-9cbaf9cd9307">
+    <name>ИсполняемыйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполняемый код</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

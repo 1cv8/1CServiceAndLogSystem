@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5466b54e-26c5-4883-b5fb-daa6ce1686b0">
+  <producedTypes>
+    <managerType typeId="f58ec318-a405-4c10-8034-6c4845aeef56" valueTypeId="69ad2d47-c180-4ad0-8301-e0838f8fc7a2"/>
+    <valueManagerType typeId="ba7d0d4e-9281-4651-8ba1-707f1b5b15bf" valueTypeId="40b912c0-9f9b-4831-b834-7e16ac07aee8"/>
+    <valueKeyType typeId="04312747-6da8-4540-9d12-98f40b133287" valueTypeId="a83b2c48-5964-40ae-81bc-34a929b81ac4"/>
+  </producedTypes>
+  <name>СерверДляИнтеграцииСJira</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервер для интеграции с jira</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.jiraСервера</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

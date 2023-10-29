@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="932f67d9-ed06-41fa-91e7-e7a9b6839a49">
+  <name>МониторингСервисов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мониторинг сервисов</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделМониторинг</picture>
+  </picture>
+  <content>Catalog.КомандыМониторингаСервисов</content>
+  <content>Enum.ТипыКоманд</content>
+  <content>InformationRegister.СтатусШаговПроверкиМониторингаСервисов</content>
+  <content>InformationRegister.ПараметрыКомандМониторинга</content>
+  <content>Catalog.ПроверкиМониторингаСервисов</content>
+  <content>DataProcessor.РММониторинг</content>
+  <content>InformationRegister.СтатистикаШаговПроверкиМониторингаСервисов</content>
+  <content>HTTPService._СостояниеСервисов</content>
+  <content>CommonModule.МониторингСервисов</content>
+  <content>CommonModule.МониторингПереопределяемый</content>
+</mdclass:Subsystem>

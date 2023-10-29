@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e347d46b-3e6c-41e8-8069-22b8ae19d59c">
+  <name>СборДанныхЗамерыВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сбор данных замеры времени</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

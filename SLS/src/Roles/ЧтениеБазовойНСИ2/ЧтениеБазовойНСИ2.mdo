@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a2838ad-d049-45b9-9c9b-9a0a406e40ed">
+  <name>ЧтениеБазовойНСИ2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чтение базовой НСИ2</value>
+  </synonym>
+</mdclass:Role>

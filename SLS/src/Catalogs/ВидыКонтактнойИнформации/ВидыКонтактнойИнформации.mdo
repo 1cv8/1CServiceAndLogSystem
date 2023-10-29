@@ -155,6 +155,42 @@
           <value></value>
         </code>
       </content>
+      <content id="b1bc28eb-f517-4cf5-b0e5-0c35c955c327">
+        <name>EmailПользователяLink</name>
+        <description>Электронная почта link</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+    </items>
+    <items id="f7b41da0-ebf2-4b7d-a296-0a47403776c7">
+      <name>СправочникФизическиеЛица</name>
+      <description>Справочник физические лица</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="58abcb2a-ecb6-46e9-b01f-b7b3f94ed645">
+        <name>EMailФизическиеЛица</name>
+        <description>Email физические лица</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="1470d5ef-3645-4685-baf4-caa33110d0ff">
+        <name>EMailФизическиеЛицаLink</name>
+        <description>Email физические лица link</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
+      <content id="4e50b2b0-a728-49b3-bf57-2a87749e4485">
+        <name>TelegramIDФизическиеЛица</name>
+        <description>Telegram ID физ. лица</description>
+        <code xsi:type="core:StringValue">
+          <value></value>
+        </code>
+      </content>
     </items>
   </predefined>
   <choiceMode>BothWays</choiceMode>

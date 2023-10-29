@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68dba2c8-bbcb-4dc5-9dab-48ceaef7c261">
+  <producedTypes>
+    <selectionType typeId="57b1eece-70b6-40b1-9949-9f0ab4843df1" valueTypeId="7563811e-07ff-437c-8e80-7abfc48dbf84"/>
+    <listType typeId="76ce7234-b116-423c-b622-c90f75f70211" valueTypeId="6ca5a5c1-485b-4bc2-a756-b89b067e451f"/>
+    <managerType typeId="1d080df1-9638-4027-909a-0c582a6aa295" valueTypeId="ede9ac52-16c0-4f3c-94bf-ef355ca7ecd4"/>
+    <recordSetType typeId="82048e1a-5acf-40c9-8fe9-532621348238" valueTypeId="d975a9bd-a8fc-4102-9563-10ef61f9a07f"/>
+    <recordKeyType typeId="0c1aa227-44eb-448a-a427-03ac125a5ade" valueTypeId="02de47f7-d5ac-4b7b-95c8-d6c9a6aafc91"/>
+    <recordType typeId="e6d5d4bb-6101-4fe6-9906-4aaa8605b957" valueTypeId="b3f0099f-8298-4a2b-80a6-e093c27de7ac"/>
+    <recordManagerType typeId="ae881b6e-bd8c-4835-be71-7e32a0329bdd" valueTypeId="7099479e-0252-4b74-b985-f69aeec3a65f"/>
+  </producedTypes>
+  <name>КэшСтатистикаПоОжиданиямSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кэш статистика по ожиданиям SQL</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b1221e4b-b9b4-4d34-8820-324e4187f1cf">
+    <name>ДатаСбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата сбора</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cd203b59-219f-4274-86a4-cdc93a79adc8">
+    <name>wait_time_s</name>
+    <synonym>
+      <key>ru</key>
+      <value>Wait time s</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5f39709f-84d7-4466-b872-8433eee5221a">
+    <name>signal_wait_time_s</name>
+    <synonym>
+      <key>ru</key>
+      <value>Signal wait time s</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b99e685a-3637-4e0f-bff3-87eb1a3b7241">
+    <name>waiting_tasks_count</name>
+    <synonym>
+      <key>ru</key>
+      <value>Waiting tasks count</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4a65d017-c3be-476d-9835-9bd6298a8cc5">
+    <name>СерверSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер SQL</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СерверыSQL</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5c33a547-bcde-45ba-ae38-f136e864d510">
+    <name>wait_type</name>
+    <synonym>
+      <key>ru</key>
+      <value>Wait type</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыОжиданийSQL</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </dimensions>
+</mdclass:InformationRegister>

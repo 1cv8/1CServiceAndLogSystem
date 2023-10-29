@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5589697e-fb1f-40a1-b66f-e1433e281f84">
+  <name>СохранятьПланыЗапросовSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранять планы запросов SQL</value>
+  </synonym>
+  <location>Constant.СохранятьПланыЗапросовSQL</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

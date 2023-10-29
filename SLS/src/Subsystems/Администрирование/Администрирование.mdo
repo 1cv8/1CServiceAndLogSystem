@@ -12,7 +12,7 @@
     <value>Администрирование, настройка, сервисные функции</value>
   </explanation>
   <picture xsi:type="core:PictureRef">
-    <picture>CommonPicture.РазделАдминистрирование</picture>
+    <picture>CommonPicture.РазделАдминистрирование186</picture>
   </picture>
   <content>CommonCommand.НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</content>
   <content>DataProcessor.АктивныеПользователи</content>

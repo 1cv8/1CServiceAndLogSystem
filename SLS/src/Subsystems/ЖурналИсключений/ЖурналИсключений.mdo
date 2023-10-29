@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74bee51c-3813-4d22-a85f-607c052dbe33">
+  <name>ЖурналИсключений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал исключений</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ЖурналИсключений186</picture>
+  </picture>
+  <content>InformationRegister.ИсключенияВБазах1С</content>
+  <content>Catalog.ИсключенияВБазах1С</content>
+  <content>InformationRegister.СтатистикаПоИсключениямВБазах1С</content>
+  <content>HTTPService.РегистрацияИсключений</content>
+  <content>CommonModule.ЖурналИсключенийПовтИсп</content>
+  <content>InformationRegister.ОчередьОтложеннойОбработчиИсключенийВБазах1C</content>
+  <content>ScheduledJob.ОтложеннаяОбработкаИсключенийВБазах1С</content>
+  <content>Constant.База1СДляПросмотраИсключенийПоУмолчанию</content>
+  <content>DataProcessor.ЖурналИсключенийПанельАдминистрирования</content>
+  <content>ScheduledJob.ФормированиеОповещенийОбИсключениях</content>
+  <content>Constant.ГруппаПолучателейИсключенийПоУмолчанию</content>
+  <content>Constant.ГруппаОбязательныхПолучателейИсключений</content>
+  <content>InformationRegister.НастройкиИсключенийПоУмолчанию</content>
+  <content>ScheduledJob.ВозвратОтложенныхИсключенийКОбработке</content>
+  <content>Catalog.КатегорииИсключений</content>
+  <content>Role.ЧтениеБазовойНСИЖурналИсключений</content>
+  <content>InformationRegister.ИсторияОбработкиИсключенийБаз1С</content>
+  <content>DataProcessor.ОтправкаСообщенийЖурналаРегистрацииВЖурналИсключений</content>
+  <content>Role.ПравоПереводитьИсключенияВСтатусИгнорировать</content>
+</mdclass:Subsystem>

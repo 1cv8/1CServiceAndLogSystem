@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fe9d0c4-2171-4448-b2de-ddb1cb20396d">
+  <producedTypes>
+    <objectType typeId="32003d04-727a-4705-9573-d7692e878b95" valueTypeId="bb4864f8-8911-4901-a562-9b5d61b88aab"/>
+    <managerType typeId="caad7c4d-00ea-4ecf-af4e-ec3278a2a96b" valueTypeId="254a05c0-5d0c-45f1-9e68-bbd539e3ebb2"/>
+  </producedTypes>
+  <name>ЖурналИсключенийПанельАдминистрирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Панель администрирования (Журнал исключений)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЖурналИсключенийПанельАдминистрирования.Form.Форма</defaultForm>
+  <forms uuid="6edba7e6-91e2-40e0-b8ff-429b9c00dc22">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

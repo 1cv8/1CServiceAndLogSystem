@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80e652cc-3e95-4602-b87e-1bbbab3913d0">
+  <producedTypes>
+    <objectType typeId="befa50d1-398f-496d-975b-ac1d3abed9a1" valueTypeId="d19fa502-36fa-46b8-8845-c2ce9adf9df9"/>
+    <refType typeId="d07e9fda-39d5-4f78-aac8-423d6883f45b" valueTypeId="d1e3a188-cffb-4ce8-9e8d-5be4dc290de9"/>
+    <selectionType typeId="3bbc5017-ee10-49ea-beb7-7ff030b7bdb6" valueTypeId="d206bbb3-2d6f-4047-996a-bfeb2a7dcf39"/>
+    <listType typeId="6bd5c283-45e2-49be-a4af-42dc8be39ea0" valueTypeId="59b2e49f-cfdf-42b2-9af0-22fef37aba41"/>
+    <managerType typeId="18a7682c-c5df-4964-9b51-30d4d367ec47" valueTypeId="f9fe6b33-a2b4-4998-bd37-85541c37d8d0"/>
+  </producedTypes>
+  <name>ИдентификаторыОбъектовМетаданныхКонфигураций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификаторы объектов метаданных конфигураций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИдентификаторыОбъектовМетаданныхКонфигураций.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="0a864114-7597-4ca2-b38e-c7f8a39e340c">
+      <name>БизнесПроцессы</name>
+      <description>Бизнес-процессы</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="65db3e06-9af0-4ead-b6a7-4153215e6e84">
+      <name>Документы</name>
+      <description>Документы</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="e2a16dae-b1f4-4ebc-8f1e-aae71f975e56">
+      <name>ЖурналыДокументов</name>
+      <description>Журналы документов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="348144e0-7d8e-4766-a8e8-e46415faf066">
+      <name>Задачи</name>
+      <description>Задачи</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="ded560f5-8568-48cf-9d88-dfe4973e9483">
+      <name>Константы</name>
+      <description>Константы</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="c07e47cd-75de-4495-ba52-7b3d4027f5ca">
+      <name>Обработки</name>
+      <description>Обработки</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="a540bbc9-b740-4625-be2c-c9fb07a337e8">
+      <name>Отчеты</name>
+      <description>Отчеты</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="d04b8959-64b5-4fae-85df-f6b81ae46a20">
+      <name>ПланыВидовРасчета</name>
+      <description>Планы видов расчета</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="09512d4e-db44-46f0-8c85-cc75bd431089">
+      <name>ПланыВидовХарактеристик</name>
+      <description>Планы видов характеристик</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="5bc5a143-4227-4d1f-b6fb-592dff887b6b">
+      <name>ПланыОбмена</name>
+      <description>Планы обмена</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="80f894b5-47d2-488f-a527-59505a515327">
+      <name>ПланыСчетов</name>
+      <description>Планы счетов</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="b15318ba-ee77-4439-b729-52a5137f6bcb">
+      <name>Подсистемы</name>
+      <description>Подсистемы</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="09ad7d00-f6ff-45be-993f-f4419f352dbd">
+      <name>РегистрыБухгалтерии</name>
+      <description>Регистры бухгалтерии</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="1e60f505-d3d5-4fcb-9ff6-97c31891040c">
+      <name>РегистрыНакопления</name>
+      <description>Регистры накопления</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="7e5f9456-67ce-4e10-b7e0-c31473b7836b">
+      <name>РегистрыРасчета</name>
+      <description>Регистры расчета</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="680f0f76-0a80-461d-b298-e92339703668">
+      <name>РегистрыСведений</name>
+      <description>Регистры сведений</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="db865703-d1af-4660-8e10-c7e94ae5025a">
+      <name>Роли</name>
+      <description>Роли</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="c9f3130b-c006-4976-b019-7a3685cd6e12">
+      <name>Справочники</name>
+      <description>Справочники</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИдентификаторыОбъектовМетаданныхКонфигураций.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.ИдентификаторыОбъектовМетаданныхКонфигураций.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.ИдентификаторыОбъектовМетаданныхКонфигураций.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="3c753469-8999-4c9b-8cf6-0b83f547d2cb">
+    <name>Конфигурация1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация (1С)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Конфигурации1С</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2468c7f8-7cb8-4fd6-87b5-7c41a9c6e594">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <comment>Например, &quot;ОбъектыАдресацииЗадач&quot;</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя объекта метаданных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="45be88d9-c0c2-4af6-b6d5-9fb476824ec3">
+    <name>Синоним</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синоним</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Синоним объекта метаданных,
+например, &quot;Объекты адресации задач&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="94894947-9554-48e9-9731-2492b5db2678">
+    <name>ПолноеИмя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя</value>
+    </synonym>
+    <comment>Например, &quot;ПланВидовХарактеристик.ОбъектыАдресацииЗадач&quot;</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>430</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полное имя объекта метаданных</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="32faaf03-a116-4b22-bc94-61a0da585923">
+    <name>ИмяТаблицыSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя таблицы SQL</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="ecee168b-cca6-4d35-81ea-631715048c32">
+    <producedTypes>
+      <objectType typeId="f4373a81-4f6c-4376-8219-586b952f9e88" valueTypeId="593397ca-4521-4029-90d0-9700d32365fa"/>
+      <rowType typeId="b048c497-3868-4da9-93cd-3fd4f82ecf8e" valueTypeId="8bc4b959-c14f-4857-8544-e6acf4772826"/>
+    </producedTypes>
+    <name>ТабличныеЧасти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличные части</value>
+    </synonym>
+    <attributes uuid="243a382e-c133-41fc-85c6-f476a7d6db63">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4103403b-359e-482f-b429-fbe011e20c5e">
+      <name>ИмяТаблицыSQL</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя таблицы SQL</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="fbd6d813-9c21-47b7-8956-f7519e5906cf">
+    <producedTypes>
+      <objectType typeId="5600f942-0d06-40db-8b00-fcce9a0b818d" valueTypeId="1c160f8d-f438-4cb0-8a15-5f19369a45b1"/>
+      <rowType typeId="47ab10ee-f982-4fe0-b5b8-8ffe3c8b0215" valueTypeId="af82b064-c526-4461-9abc-3dcca2d846ce"/>
+    </producedTypes>
+    <name>Реквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизиты</value>
+    </synonym>
+    <attributes uuid="fc312729-d861-49cc-ab13-6e115897a55c">
+      <name>ИмяТЧ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя ТЧ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eba82ee6-98b9-42f9-8e57-9ad95bb81c9d">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="994ec6de-b1a7-4186-8793-54adb8697669">
+      <name>ИмяSQL</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя SQL</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2b7e5bdc-d29c-4320-936e-5d7dfc8fe082">
+      <name>ТипЗнч</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип знч</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ИмяТипа1С</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="a2f86ca6-9840-45ab-9508-34bd4513c340">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="961d6abb-c416-4347-9226-3e5a5a91458c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e55dcc27-e665-4bef-a9fa-924bdb6a1643">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="182ff4ad-aaba-43fa-b294-74c22226fd55">
+    <name>ОбновитьМетаданныеИзБазыOdata</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обновить метаданные из базы odata</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Конфигурации1С</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

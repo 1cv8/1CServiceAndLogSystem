@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>plan_generation_num</dataPath>
+			<field>plan_generation_num</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СерверSQL</dataPath>
+			<field>СерверSQL</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>max_logical_reads</dataPath>
+			<field>max_logical_reads</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаСбора</dataPath>
+			<field>ДатаСбора</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>total_elapsed_time</dataPath>
+			<field>total_elapsed_time</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>min_worker_time</dataPath>
+			<field>min_worker_time</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>creation_time</dataPath>
+			<field>creation_time</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>dbname</dataPath>
+			<field>dbname</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>max_dop</dataPath>
+			<field>max_dop</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>execution_count</dataPath>
+			<field>execution_count</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>total_worker_time</dataPath>
+			<field>total_worker_time</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Total worker time</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>total_logical_writes</dataPath>
+			<field>total_logical_writes</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>max_worker_time</dataPath>
+			<field>max_worker_time</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>total_rows</dataPath>
+			<field>total_rows</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>total_physical_reads</dataPath>
+			<field>total_physical_reads</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>min_logical_reads</dataPath>
+			<field>min_logical_reads</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>max_physical_reads</dataPath>
+			<field>max_physical_reads</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>min_physical_reads</dataPath>
+			<field>min_physical_reads</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>total_logical_reads</dataPath>
+			<field>total_logical_reads</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>min_logical_writes</dataPath>
+			<field>min_logical_writes</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>max_logical_writes</dataPath>
+			<field>max_logical_writes</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>min_elapsed_time</dataPath>
+			<field>min_elapsed_time</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>max_elapsed_time</dataPath>
+			<field>max_elapsed_time</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>min_rows</dataPath>
+			<field>min_rows</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>max_rows</dataPath>
+			<field>max_rows</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>total_dop</dataPath>
+			<field>total_dop</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>min_dop</dataPath>
+			<field>min_dop</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВариантовЗапроса</dataPath>
+			<field>ВариантовЗапроса</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>sum_total_worker_time</dataPath>
+			<field>sum_total_worker_time</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Sum total worker time</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>sum_total_logical_reads</dataPath>
+			<field>sum_total_logical_reads</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Sum total logical reads</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>sum_total_elapsed_time</dataPath>
+			<field>sum_total_elapsed_time</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Sum total elapsed time</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>sum_total_physical_reads</dataPath>
+			<field>sum_total_physical_reads</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Sum total physical reads</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>sum_total_logical_writes</dataPath>
+			<field>sum_total_logical_writes</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Sum total logical writes</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>sum_ВсегоЗапросов</dataPath>
+			<field>sum_ВсегоЗапросов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Sum всего запросов</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>commad</dataPath>
+			<field>commad</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>текстЗапроса1С</dataPath>
+			<field>текстЗапроса1С</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">50</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяВысота</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">50</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>текстЗапросаSQL</dataPath>
+			<field>текстЗапросаSQL</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">50</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяВысота</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">50</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Комментарий</dataPath>
+			<field>Комментарий</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">50</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяВысота</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">50</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗапросSQL</dataPath>
+			<field>ЗапросSQL</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	СтатистикаПоЗапросамSQL.СерверSQL КАК СерверSQL,
+	СтатистикаПоЗапросамSQL.ЗапросSQL КАК ЗапросSQL,
+	СтатистикаПоЗапросамSQL.dbname КАК dbname,
+	МАКСИМУМ(СтатистикаПоЗапросамSQL.ДатаСбора) КАК ДатаСбора,
+	СУММА(СтатистикаПоЗапросамSQL.plan_generation_num) КАК plan_generation_num,
+	МАКСИМУМ(СтатистикаПоЗапросамSQL.creation_time) КАК creation_time,
+	СУММА(СтатистикаПоЗапросамSQL.execution_count) КАК execution_count,
+	СУММА(СтатистикаПоЗапросамSQL.total_worker_time) КАК total_worker_time,
+	МИНИМУМ(СтатистикаПоЗапросамSQL.min_worker_time) КАК min_worker_time,
+	МАКСИМУМ(СтатистикаПоЗапросамSQL.max_worker_time) КАК max_worker_time,
+	СУММА(СтатистикаПоЗапросамSQL.total_physical_reads) КАК total_physical_reads,
+	МАКСИМУМ(СтатистикаПоЗапросамSQL.max_physical_reads) КАК max_physical_reads,
+	МИНИМУМ(СтатистикаПоЗапросамSQL.min_physical_reads) КАК min_physical_reads,
+	СУММА(СтатистикаПоЗапросамSQL.total_logical_reads) КАК total_logical_reads,
+	МИНИМУМ(СтатистикаПоЗапросамSQL.min_logical_reads) КАК min_logical_reads,
+	МАКСИМУМ(СтатистикаПоЗапросамSQL.max_logical_reads) КАК max_logical_reads,
+	СУММА(СтатистикаПоЗапросамSQL.total_logical_writes) КАК total_logical_writes,
+	МИНИМУМ(СтатистикаПоЗапросамSQL.min_logical_writes) КАК min_logical_writes,
+	МАКСИМУМ(СтатистикаПоЗапросамSQL.max_logical_writes) КАК max_logical_writes,
+	СУММА(СтатистикаПоЗапросамSQL.total_elapsed_time) КАК total_elapsed_time,
+	МИНИМУМ(СтатистикаПоЗапросамSQL.min_elapsed_time) КАК min_elapsed_time,
+	МАКСИМУМ(СтатистикаПоЗапросамSQL.max_elapsed_time) КАК max_elapsed_time,
+	СУММА(СтатистикаПоЗапросамSQL.total_rows) КАК total_rows,
+	МИНИМУМ(СтатистикаПоЗапросамSQL.min_rows) КАК min_rows,
+	МАКСИМУМ(СтатистикаПоЗапросамSQL.max_rows) КАК max_rows,
+	СУММА(СтатистикаПоЗапросамSQL.total_dop) КАК total_dop,
+	МИНИМУМ(СтатистикаПоЗапросамSQL.min_dop) КАК min_dop,
+	МАКСИМУМ(СтатистикаПоЗапросамSQL.max_dop) КАК max_dop,
+	СУММА(СтатистикаПоЗапросамSQL.ВариантовЗапроса) КАК ВариантовЗапроса,
+	СУММА(СтатистикаПоЗапросамSQLОбщиеДанные.total_elapsed_time) КАК sum_total_elapsed_time,
+	СУММА(СтатистикаПоЗапросамSQLОбщиеДанные.total_worker_time) КАК sum_total_worker_time,
+	СУММА(СтатистикаПоЗапросамSQLОбщиеДанные.total_physical_reads) КАК sum_total_physical_reads,
+	СУММА(СтатистикаПоЗапросамSQLОбщиеДанные.total_logical_reads) КАК sum_total_logical_reads,
+	СУММА(СтатистикаПоЗапросамSQLОбщиеДанные.total_logical_writes) КАК sum_total_logical_writes,
+	СУММА(СтатистикаПоЗапросамSQLОбщиеДанные.ВсегоЗапросов) КАК sum_ВсегоЗапросов,
+	ПОДСТРОКА(СтатистикаПоЗапросамSQL.ЗапросSQL.текстЗапросаSQL, 1, 1024) КАК текстЗапросаSQL,
+	ПОДСТРОКА(СтатистикаПоЗапросамSQL.ЗапросSQL.текстЗапроса1С, 1, 1024) КАК текстЗапроса1С,
+	СтатистикаПоЗапросамSQL.ЗапросSQL.commad КАК commad,
+	СтатистикаПоЗапросамSQL.ЗапросSQL.Комментарий КАК Комментарий
+ИЗ
+	РегистрСведений.СтатистикаПоЗапросамSQL КАК СтатистикаПоЗапросамSQL
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СтатистикаПоЗапросамSQLОбщиеДанные КАК СтатистикаПоЗапросамSQLОбщиеДанные
+		ПО СтатистикаПоЗапросамSQL.СерверSQL = СтатистикаПоЗапросамSQLОбщиеДанные.СерверSQL
+			И СтатистикаПоЗапросамSQL.ДатаСбора = СтатистикаПоЗапросамSQLОбщиеДанные.ДатаСбора
+ГДЕ
+	СтатистикаПоЗапросамSQL.СерверSQL = &amp;СерверSQL
+	И СтатистикаПоЗапросамSQL.ДатаСбора &gt;= &amp;ДатаНач
+	И СтатистикаПоЗапросамSQL.ДатаСбора &lt;= &amp;ДатаКон
+{ГДЕ
+	СтатистикаПоЗапросамSQL.СерверSQL.* КАК СерверSQL,
+	СтатистикаПоЗапросамSQL.ДатаСбора,
+	СтатистикаПоЗапросамSQL.dbname}
+
+СГРУППИРОВАТЬ ПО
+	СтатистикаПоЗапросамSQL.СерверSQL,
+	СтатистикаПоЗапросамSQL.ЗапросSQL,
+	СтатистикаПоЗапросамSQL.dbname,
+	СтатистикаПоЗапросамSQL.ЗапросSQL.commad,
+	СтатистикаПоЗапросамSQL.ЗапросSQL.Комментарий,
+	ПОДСТРОКА(СтатистикаПоЗапросамSQL.ЗапросSQL.текстЗапросаSQL, 1, 1024),
+	ПОДСТРОКА(СтатистикаПоЗапросамSQL.ЗапросSQL.текстЗапроса1С, 1, 1024)</query>
+	</dataSet>
+	<totalField>
+		<dataPath>execution_count</dataPath>
+		<expression>Сумма(execution_count)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>max_dop</dataPath>
+		<expression>Сумма(max_dop)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>max_elapsed_time</dataPath>
+		<expression>Сумма(max_elapsed_time)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>max_logical_reads</dataPath>
+		<expression>Сумма(max_logical_reads)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>max_logical_writes</dataPath>
+		<expression>Сумма(max_logical_writes)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>max_physical_reads</dataPath>
+		<expression>Сумма(max_physical_reads)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>max_rows</dataPath>
+		<expression>Сумма(max_rows)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>max_worker_time</dataPath>
+		<expression>Сумма(max_worker_time)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>min_dop</dataPath>
+		<expression>Сумма(min_dop)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>min_elapsed_time</dataPath>
+		<expression>Сумма(min_elapsed_time)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>min_logical_reads</dataPath>
+		<expression>Сумма(min_logical_reads)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>min_logical_writes</dataPath>
+		<expression>Сумма(min_logical_writes)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>min_physical_reads</dataPath>
+		<expression>Сумма(min_physical_reads)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>min_rows</dataPath>
+		<expression>Сумма(min_rows)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>min_worker_time</dataPath>
+		<expression>Сумма(min_worker_time)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>plan_generation_num</dataPath>
+		<expression>Сумма(plan_generation_num)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>sum_total_elapsed_time</dataPath>
+		<expression>Сумма(sum_total_elapsed_time)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>sum_total_logical_reads</dataPath>
+		<expression>Сумма(sum_total_logical_reads)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>sum_total_logical_writes</dataPath>
+		<expression>Сумма(sum_total_logical_writes)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>sum_total_physical_reads</dataPath>
+		<expression>Сумма(sum_total_physical_reads)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>sum_total_worker_time</dataPath>
+		<expression>Сумма(sum_total_worker_time)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>sum_ВсегоЗапросов</dataPath>
+		<expression>Сумма(sum_ВсегоЗапросов)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>total_dop</dataPath>
+		<expression>Сумма(total_dop)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>total_elapsed_time</dataPath>
+		<expression>Сумма(total_elapsed_time)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>total_logical_reads</dataPath>
+		<expression>Сумма(total_logical_reads)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>total_logical_writes</dataPath>
+		<expression>Сумма(total_logical_writes)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>total_physical_reads</dataPath>
+		<expression>Сумма(total_physical_reads)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>total_rows</dataPath>
+		<expression>Сумма(total_rows)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>total_worker_time</dataPath>
+		<expression>Сумма(total_worker_time)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ВариантовЗапроса</dataPath>
+		<expression>Сумма(ВариантовЗапроса)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>creation_time</dataPath>
+		<expression>Минимум(creation_time)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>dbname</dataPath>
+		<expression>Максимум(dbname)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ДатаСбора</dataPath>
+		<expression>Максимум(ДатаСбора)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>commad</dataPath>
+		<expression>Максимум(commad)</expression>
+	</totalField>
+	<parameter>
+		<name>ПериодСтатистики</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период статистики</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>ДатаКон</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата кон</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>КОНЕЦПЕРИОДА(&amp;ПериодСтатистики.ДатаОкончания, "День")</expression>
+	</parameter>
+	<parameter>
+		<name>ДатаНач</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата нач</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодСтатистики.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>СерверSQL</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Сервер SQL</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:CatalogRef.СерверыSQL</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<parameter>
+		<name>КоличествоПервых</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Количество первых</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>9</v8:Digits>
+				<v8:FractionDigits>0</v8:FractionDigits>
+				<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
+		<value xsi:type="xs:decimal">0</value>
+		<useRestriction>false</useRestriction>
+		<use>Always</use>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Max_cpu</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Max_cpu</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>uk</v8:lang>
+				<v8:content>Основной</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СерверSQL</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаСбора</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗапросSQL</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Комментарий</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>текстЗапросаSQL</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>текстЗапроса1С</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>dbname</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВариантовЗапроса</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>execution_count</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>total_worker_time</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>total_elapsed_time</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>total_logical_reads</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>total_logical_writes</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>total_physical_reads</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>total_rows</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>min_worker_time</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>max_worker_time</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>min_elapsed_time</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>max_elapsed_time</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">СерверSQL</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ПериодСтатистики</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisWeek</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>54240183-9499-4260-a567-59f3cdbdb8b9</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>СерверSQL</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
+					<dcsset:userSettingID>6cf7cc88-46ec-460e-8927-1382c7935a1d</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>КоличествоПервых</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">100</dcscor:value>
+					<dcsset:userSettingID>0df65341-6730-4ff3-97ed-4cbcd6ebabfc</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>total_worker_time</dcsset:field>
+					<dcsset:orderType>Desc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МакетОформления</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">Зеленый</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Output</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Output</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>СерверSQL</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ЗапросSQL</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Комментарий</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>текстЗапроса1С</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>текстЗапросаSQL</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

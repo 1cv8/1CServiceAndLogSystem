@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47110acb-cfe3-4b70-9a56-fa3821b92c59">
+  <producedTypes>
+    <refType typeId="ddb594dd-b391-4106-a50a-86e7b3171786" valueTypeId="74fbcef1-9e66-4688-bd14-a45284e7d9e0"/>
+    <listType typeId="ba222714-26e5-40b7-a0ab-8bcd08020d14" valueTypeId="ff45e4df-0322-4032-9573-992b32ffe74c"/>
+    <managerType typeId="471f94a3-3939-4aa3-9ebd-69e9d6114298" valueTypeId="8805efe9-36c2-4740-ab7d-6baa6b852b67"/>
+  </producedTypes>
+  <name>ВариантыРешенийПоИсключениям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты решений по исключениям</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8deb4cec-8935-4644-8901-ede2f0277a8d">
+    <name>Игнорировать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игнорировать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="17156bd7-1bba-4317-b82e-8d1413361c33">
+    <name>Исправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исправлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0d73251-301c-4e1a-ae1c-ea5aa92e4697">
+    <name>Отложено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

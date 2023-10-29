@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="22ee4f97-badd-4934-98df-7a3b5a15a788">
+  <producedTypes>
+    <refType typeId="f7867848-19e2-431f-9827-3c0623ce6835" valueTypeId="194df49c-622e-494c-a914-25807fffe71d"/>
+    <listType typeId="1f19b05c-86c2-4c74-a042-a079f5a35436" valueTypeId="eb4a2608-6a96-4349-a7fb-f7cc94116056"/>
+    <managerType typeId="ea88e5ec-8b5f-4423-a751-44cef0db07c8" valueTypeId="2a3cfe96-9c9d-4d06-aa80-aa2d52617e98"/>
+  </producedTypes>
+  <name>JiraПриоритеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Jira приоритеты</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="41349c86-9d95-4d4b-8f64-58bc00aaaaf7">
+    <name>A</name>
+    <synonym>
+      <key>ru</key>
+      <value>A</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a4b10f86-9768-452b-8e1e-d7d33f28c601">
+    <name>B</name>
+    <synonym>
+      <key>ru</key>
+      <value>B</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ecda893d-ff18-4c9c-83a3-b402900f7364">
+    <name>C</name>
+    <synonym>
+      <key>ru</key>
+      <value>C</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="738e2549-5fe4-41bd-88c2-dcad0a6a9478">
+    <name>D</name>
+    <synonym>
+      <key>ru</key>
+      <value>D</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

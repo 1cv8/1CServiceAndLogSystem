@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41e0380d-fb9b-4c5b-95af-6bd6fd1a03d5">
+  <name>ПравоПереводитьИсключенияВСтатусИгнорировать</name>
+  <synonym>
+    <key>ru</key>
+    <value>Право переводить исключения в статус игнорировать</value>
+  </synonym>
+</mdclass:Role>

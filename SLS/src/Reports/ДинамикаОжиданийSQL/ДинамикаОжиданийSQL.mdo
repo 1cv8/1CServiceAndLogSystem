@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0367aff6-d5e7-45f1-804c-4202eb4e5c74">
+  <producedTypes>
+    <objectType typeId="51818b62-820e-4de5-8cb2-b573d0765a2e" valueTypeId="87b0b6c7-b544-4060-9008-c7e3ce0955f8"/>
+    <managerType typeId="4344c2ca-7c87-4681-a4db-5e84ab4a103e" valueTypeId="2ce110ed-44f6-4ed9-8a0c-0e8fa2d7fe27"/>
+  </producedTypes>
+  <name>ДинамикаОжиданийSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Динамика ожиданий SQL</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ДинамикаОжиданийSQL.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <templates uuid="31ce474a-39b1-4222-af33-a37a2be83323">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

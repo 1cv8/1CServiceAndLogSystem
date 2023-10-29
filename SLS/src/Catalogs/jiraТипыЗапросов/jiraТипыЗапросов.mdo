@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e63fec90-3496-4f5e-a7c1-9ec9e5d07e11">
+  <producedTypes>
+    <objectType typeId="0c0225e9-1532-45a5-9254-fb2e2f9094bc" valueTypeId="e6752a10-a6ab-4a73-8417-b3e370b4c2b0"/>
+    <refType typeId="97f4516b-5dde-4b88-abff-fd8eac911fc1" valueTypeId="d2143e0b-0c64-44f6-b027-4b9330a9a696"/>
+    <selectionType typeId="fa167d78-356a-4a2d-989a-e51466b62937" valueTypeId="c0ac0e8e-c75f-45e9-8bf4-8f97571196c0"/>
+    <listType typeId="3dc79872-58b2-4332-b8da-8cbe4c22d6e8" valueTypeId="e97c7ede-637a-47e9-b092-2c425e55cf54"/>
+    <managerType typeId="f15f9062-026e-438a-87a2-01ed03bef585" valueTypeId="480413ac-a584-4f2c-ab7b-0a02f96f3312"/>
+  </producedTypes>
+  <name>jiraТипыЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Jira типы запросов</value>
+  </synonym>
+  <comment>issueType</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.jiraТипыЗапросов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.jiraТипыЗапросов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.jiraПроекты</owners>
+  <codeLength>18</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <codeSeries>WithinOwnerSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.jiraТипыЗапросов.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="adbe18fe-2f77-4bc8-94d3-4a469887d76e">
+    <name>IsSubtask</name>
+    <synonym>
+      <key>ru</key>
+      <value>Is subtask</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="0e3485e4-35f7-4864-80ae-5057ecbb9e3d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

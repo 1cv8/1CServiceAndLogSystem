@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e432c68-7b46-4be9-ab1f-8b16929add6a">
+  <name>Blue</name>
+  <synonym>
+    <key>en</key>
+    <value>Blue</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Синий</value>
+  </synonym>
+  <synonym>
+    <key>bg</key>
+    <value>Blue</value>
+  </synonym>
+</mdclass:Style>

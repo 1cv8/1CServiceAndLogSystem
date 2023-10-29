@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66809a88-8fa1-46b6-8a85-32785d63f8ff">
+  <producedTypes>
+    <objectType typeId="8caef89c-08c2-4588-9cf9-1f22b39ecfd0" valueTypeId="add91316-591a-4a55-9d99-95b8b75714d9"/>
+    <refType typeId="0bbc8da4-9e56-406e-95ea-c28c6b5a979d" valueTypeId="6593862c-d74b-4cbd-a1b3-5c9ecaa8c23a"/>
+    <selectionType typeId="0948aa27-035a-4814-bcee-94d04ae86e28" valueTypeId="f7126c42-625e-466d-9b98-c95e2110cab5"/>
+    <listType typeId="0114f98c-cb5a-4161-be71-89ee84f385a6" valueTypeId="5a3b570a-958f-43bb-96a2-59e49f205474"/>
+    <managerType typeId="0317d4de-bd60-4f1c-9cb2-65e4994c0089" valueTypeId="eda767b4-ef25-4ba8-a032-9c03156cc991"/>
+  </producedTypes>
+  <name>ГруппыПолучателейРассылок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы получателей рассылок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГруппыПолучателейРассылок.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГруппыПолучателейРассылок.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ГруппыПолучателейРассылок.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ГруппыПолучателейРассылок.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="d3da3cf2-1e9e-4000-8bd5-e887561995cf">
+    <name>ОповещениеTelegram</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оповещение telegram</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b496bf77-4867-40dc-9d9b-722ff3439ea6">
+    <name>TelegramBot</name>
+    <synonym>
+      <key>ru</key>
+      <value>Telegram bot</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчетныеЗаписиTelegram</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="833e6856-358e-4fcd-bc4f-9e3707def7a7">
+    <name>ОповещениеПоПочте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оповещение по почте</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="2db157d7-5a09-407a-b51d-61d7ab57151e">
+    <producedTypes>
+      <objectType typeId="a0376512-e874-4556-bff7-c95481b27d82" valueTypeId="9c0e2b73-6b86-4331-903c-a1b8261c51c3"/>
+      <rowType typeId="b5a36c70-50b5-4da5-b2d2-1c6535b8537b" valueTypeId="11f09540-198a-49a5-aff6-1a3c9f686f09"/>
+    </producedTypes>
+    <name>Получатели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатели</value>
+    </synonym>
+    <attributes uuid="61ea8daf-1d27-4390-89ab-2b4c7c1c515c">
+      <name>Получатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получатель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="85dfc75c-a1d6-43b0-bce3-a70bf608b5c6">
+      <name>Отключить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отключить</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="95b1d9f5-7650-4ea7-ac24-8d8f6e6ebeae">
+    <producedTypes>
+      <objectType typeId="662677ea-cc95-48ec-b4bc-fec8bc512a84" valueTypeId="3429b66a-e0f6-46c4-9901-b32553762bad"/>
+      <rowType typeId="50442d32-2c5a-499c-a478-93282bc6349c" valueTypeId="c8602598-11c6-48b6-91d7-ade6b4380f99"/>
+    </producedTypes>
+    <name>Копии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Копии</value>
+    </synonym>
+    <attributes uuid="6091c950-68dc-487c-b8d5-198101878317">
+      <name>Получатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получатель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="40575fd4-47c6-476e-9e9e-a3f687557426">
+      <name>Отключить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отключить</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="bede64b3-f8a4-4fbe-af6b-db3207fda055">
+    <producedTypes>
+      <objectType typeId="14edef37-57a9-4cee-b004-ba99611defd0" valueTypeId="ff017e1e-2a6c-406d-b4c8-16952a492306"/>
+      <rowType typeId="7587e768-d3fd-4f16-9dda-6318e11dffac" valueTypeId="60d13167-9872-4586-9402-8b70b49ccfdf"/>
+    </producedTypes>
+    <name>ГруппыПолучатели</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группы получатели</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="1e4d6b89-ec97-4b21-b9bc-04ecb11e9b42">
+      <name>Получатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получатель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПочтовыеГруппыИЧаты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="32689687-490f-4146-9126-bcf5de23a9a7">
+      <name>Отключить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отключить</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d148f84c-b9ad-4240-b6ad-739ed492c00c">
+    <producedTypes>
+      <objectType typeId="43a7c915-4bbc-4745-a677-4c9c0b04789f" valueTypeId="a7caa561-115d-4289-8aeb-689eb2f6bd3a"/>
+      <rowType typeId="91fe2374-5647-4b74-a415-f8fcdec769ea" valueTypeId="60ece00e-670b-4398-8ff7-5c01528d6358"/>
+    </producedTypes>
+    <name>ГруппыКопии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группы копии</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="6799c88b-3f7b-41e5-9a69-bf243ae88e92">
+      <name>Получатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Получатель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПочтовыеГруппыИЧаты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ba988a58-8ff3-4e11-abf2-4253c49d380b">
+      <name>Отключить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отключить</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="70f41adf-2117-48d3-9d6d-99021f4f0a4a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c3ad5bb3-9175-4691-a063-fab70ebce18e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd57fce9-3a08-4491-a536-4b2728248307">
+  <name>TisPack</name>
+  <synonym>
+    <key>ru</key>
+    <value>Tis pack</value>
+  </synonym>
+  <namespace>http://TisExchange/</namespace>
+</mdclass:XDTOPackage>

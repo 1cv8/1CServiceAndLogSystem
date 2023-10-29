@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="160b0926-71c7-459e-b06e-1e0c8bac3416">
+  <name>ИР</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИР</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor._ирОболочкаРегВыражение</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы2</parentSubsystem>
+</mdclass:Subsystem>

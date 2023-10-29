@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29789dc2-daa5-41d6-8ca0-eeb05a2b0e36">
+  <producedTypes>
+    <selectionType typeId="11f4118e-347c-49f1-9bd9-a9fcbaadebc4" valueTypeId="67f5016c-f013-4f44-bb11-4f8aa60f3897"/>
+    <listType typeId="1e5b7781-2e2f-4596-84d7-fbe990d03ed6" valueTypeId="c43748f7-f823-46ec-9532-392d6a64d184"/>
+    <managerType typeId="5f8a5f0b-9544-4db1-b6eb-00f6a51b053c" valueTypeId="59f700fe-cbf3-4642-a5d5-28b3191a32ad"/>
+    <recordSetType typeId="6ef9ef3c-82e9-4447-9431-95989567b6a7" valueTypeId="4942d056-845f-4dbb-9c42-bd31d873f443"/>
+    <recordKeyType typeId="539f4446-1e4f-4868-8680-728cf24d7b53" valueTypeId="9ed49155-70be-42cc-929a-c1c8fa3ffcaa"/>
+    <recordType typeId="5a029b89-8421-46e0-933f-2d7f91c7078c" valueTypeId="60327a23-7e0a-4fa3-afb9-b938c3f3109e"/>
+    <recordManagerType typeId="6010fbc9-416c-45f9-8e5b-a73173747188" valueTypeId="0ae03e07-31b8-429d-b71b-e18dffc37423"/>
+  </producedTypes>
+  <name>НастройкиИсключенийПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки исключений по умолчанию</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0e11534f-0c1b-4181-b45a-27de2e105595">
+    <name>ГруппаПолучателейИсключенийПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа получателей исключений по умолчанию</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыПолучателейРассылок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bb2462a9-e735-4d08-9f97-f43f4c51d1c9">
+    <name>ГруппаОбязательныхПолучателейИсключений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа обязательных получателей исключений</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыПолучателейРассылок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="17a93ad0-2561-443b-befc-a0336ccc156a">
+    <name>База1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>База 1С</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БазыДанных1С</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

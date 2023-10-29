@@ -1,0 +1,201 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://TisExchange/" elementFormQualified="true" attributeFormQualified="false">
+	<import namespace="http://www.1c.ru/SSL/Exchange/Message"/>
+	<valueType name="Operation" base="xs:string" variety="Atomic">
+		<enumeration>Postuplenie</enumeration>
+		<enumeration>Vozvrat</enumeration>
+	</valueType>
+	<valueType name="ОперацияОбменаTAT" base="xs:string" variety="Atomic">
+		<enumeration>ВыгрузкаДокумента</enumeration>
+		<enumeration>ВыгрузкаПодтвеждения</enumeration>
+	</valueType>
+	<valueType name="ТипGTIN" base="xs:string" variety="Atomic" length="14"/>
+	<valueType name="ТипSGTIN" base="xs:string" variety="Atomic" length="27"/>
+	<valueType name="ТипSSCC" base="xs:string" variety="Atomic" length="18"/>
+	<valueType name="ТипДокументаTAT" base="xs:string" variety="Atomic">
+		<enumeration>Схема702</enumeration>
+		<enumeration>Схема416</enumeration>
+		<enumeration>ПрямаяСхема</enumeration>
+	</valueType>
+	<valueType name="ТипНаименование" base="xs:string" variety="Atomic" minLength="1" maxLength="150"/>
+	<valueType name="ТипНомерСерии" base="xs:string" variety="Atomic" maxLength="20"/>
+	<valueType name="ТипПрефиксОрганизации" base="xs:string" variety="Atomic" minLength="2" maxLength="6"/>
+	<valueType name="ТипСумма" base="xs:decimal" variety="Atomic" totalDigits="20" fractionDigits="2"/>
+	<valueType name="ТипУникальныйИдентификатор" base="xs:string" variety="Atomic" length="36"/>
+	<valueType name="ТипИдентификаторМестаДеятельности" base="xs:string" minLength="14" maxLength="14"/>
+	<objectType name="AcceptanceList">
+		<property xmlns:d3p1="http://TisExchange/" name="Acceptance" type="d3p1:AcceptanceObj" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="AcceptanceObj">
+		<property name="number" type="xs:string"/>
+		<property name="date" type="xs:dateTime"/>
+		<property xmlns:d3p1="http://TisExchange/" name="operation" type="d3p1:Operation"/>
+		<property name="docnumber" type="xs:string"/>
+		<property name="docdate" type="xs:dateTime"/>
+		<property name="Свойство" type="xs:anyType"/>
+	</objectType>
+	<objectType name="NomenclatureTIS">
+		<property name="Owner" type="xs:anyType"/>
+		<property name="Name" type="xs:anyType"/>
+		<property name="Code" type="xs:anyType"/>
+		<property name="MeasurementUnitsCode" type="xs:anyType"/>
+		<property name="MeasurementUnitsName" type="xs:anyType"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="Документ.TAТ_ОбратнаяСхема" base="d2p1:Object">
+		<property xmlns:d3p1="http://TisExchange/" name="ID" type="d3p1:ТипУникальныйИдентификатор"/>
+		<property name="Номер" type="xs:string"/>
+		<property name="Дата" type="xs:dateTime"/>
+		<property xmlns:d3p1="http://TisExchange/" name="Организация" type="d3p1:Справочник.Организации"/>
+		<property xmlns:d3p1="http://TisExchange/" name="Склад" type="d3p1:Справочник.Склады"/>
+		<property xmlns:d3p1="http://TisExchange/" name="Контрагент" type="d3p1:Справочник.Контрагенты"/>
+		<property xmlns:d3p1="http://TisExchange/" name="ДоговорКонтрагента" type="d3p1:Справочник.ДоговорыКонтрагентов" lowerBound="0"/>
+		<property name="ВхНомер" type="xs:string"/>
+		<property name="ВхДата" type="xs:date"/>
+		<property xmlns:d3p1="http://TisExchange/" name="ТипДокумента" type="d3p1:ТипДокументаTAT"/>
+		<property xmlns:d3p1="http://TisExchange/" name="ПрефиксОрганизации" type="d3p1:ТипПрефиксОрганизации"/>
+		<property name="ОтправлятьРоссыпью" type="xs:boolean"/>
+		<property xmlns:d3p1="http://TisExchange/" name="Товары" type="d3p1:Документ.TAТ.Товары" lowerBound="0"/>
+		<property xmlns:d3p1="http://TisExchange/" name="Короба" type="d3p1:Документ.TAТ.Короба" lowerBound="0"/>
+		<property xmlns:d3p1="http://TisExchange/" name="Упаковки" type="d3p1:Документ.TAТ.Упаковки" lowerBound="0"/>
+	</objectType>
+	<objectType name="Документ.TAТ.Короба">
+		<property xmlns:d3p1="http://TisExchange/" name="Строка" type="d3p1:Документ.TAТ.Короба.Строка" upperBound="-1"/>
+	</objectType>
+	<objectType name="Документ.TAТ.Короба.Строка">
+		<property name="НомерСтроки" type="xs:int"/>
+		<property xmlns:d3p1="http://TisExchange/" name="SSCCКороба" type="d3p1:ТипSSCC"/>
+		<property xmlns:d3p1="http://TisExchange/" name="НомерСерии" type="d3p1:ТипНомерСерии" lowerBound="0"/>
+		<property xmlns:d3p1="http://TisExchange/" name="СуммаЗаУпаковку" type="d3p1:ТипСумма"/>
+		<property xmlns:d3p1="http://TisExchange/" name="СуммаНДСЗаУпаковку" type="d3p1:ТипСумма"/>
+		<property xmlns:d3p1="http://TisExchange/" name="SSCCПалеты" type="d3p1:ТипSSCC" lowerBound="0"/>
+		<property name="СерияНоменклатурыКод" type="xs:string" lowerBound="0"/>
+		<property name="НоменклатураКод" type="xs:string" lowerBound="0"/>
+		<property name="СрокГодности" type="xs:date"/>
+		<property name="КоличествоУпаковок" type="xs:decimal" lowerBound="0"/>
+	</objectType>
+	<objectType name="Документ.TAТ.Товары">
+		<property xmlns:d3p1="http://TisExchange/" name="Строка" type="d3p1:Документ.TAТ.Товары.Строка" upperBound="-1"/>
+	</objectType>
+	<objectType name="Документ.TAТ.Товары.Строка">
+		<property name="НомерСтроки" type="xs:int"/>
+		<property xmlns:d3p1="http://TisExchange/" name="GTIN" type="d3p1:ТипGTIN" lowerBound="0"/>
+		<property xmlns:d3p1="http://TisExchange/" name="Номенклатура" type="d3p1:Справочник.Номенклатура" lowerBound="0"/>
+		<property xmlns:d3p1="http://TisExchange/" name="СерияНоменклатуры" type="d3p1:Справочник.СерииНоменклатуры" lowerBound="0"/>
+		<property name="СрокГодности" type="xs:date" lowerBound="0"/>
+		<property xmlns:d3p1="http://TisExchange/" name="НомерСерии" type="d3p1:ТипНомерСерии" lowerBound="0"/>
+		<property xmlns:d3p1="http://TisExchange/" name="СуммаЗаУпаковку" type="d3p1:ТипСумма"/>
+		<property xmlns:d3p1="http://TisExchange/" name="СуммаНДСЗаУпаковку" type="d3p1:ТипСумма"/>
+		<property name="КоличествоУпаковок" type="xs:decimal" lowerBound="0"/>
+	</objectType>
+	<objectType name="Документ.TAТ.Упаковки">
+		<property xmlns:d3p1="http://TisExchange/" name="Строка" type="d3p1:Документ.TAТ.Упаковки.Строка" upperBound="-1"/>
+	</objectType>
+	<objectType name="Документ.TAТ.Упаковки.Строка">
+		<property name="НомерСтроки" type="xs:int"/>
+		<property xmlns:d3p1="http://TisExchange/" name="SGTIN" type="d3p1:ТипSGTIN"/>
+		<property xmlns:d3p1="http://TisExchange/" name="НомерСерии" type="d3p1:ТипНомерСерии" lowerBound="0"/>
+		<property xmlns:d3p1="http://TisExchange/" name="СуммаЗаУпаковку" type="d3p1:ТипСумма"/>
+		<property xmlns:d3p1="http://TisExchange/" name="СуммаНДСЗаУпаковку" type="d3p1:ТипСумма"/>
+		<property name="СерияНоменклатурыКод" type="xs:string" lowerBound="0"/>
+		<property name="НоменклатураКод" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://TisExchange/" name="GTIN" type="d3p1:ТипGTIN" lowerBound="0"/>
+		<property xmlns:d3p1="http://TisExchange/" name="SSCCКороба" type="d3p1:ТипSSCC" lowerBound="0"/>
+		<property xmlns:d3p1="http://TisExchange/" name="SSCCПалеты" type="d3p1:ТипSSCC" lowerBound="0"/>
+		<property name="СрокГодности" type="xs:date"/>
+	</objectType>
+	<objectType name="ОтветВэбСервиса">
+		<property name="ЕстьОшибка" type="xs:boolean"/>
+		<property name="ОписаниеОшибки" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://TisExchange/" name="GuidMDLP" type="d3p1:ТипУникальныйИдентификатор" lowerBound="0"/>
+		<property name="НомерДокумента" type="xs:string" lowerBound="0"/>
+		<property name="ДатаДокумента" type="xs:string" lowerBound="0"/>
+		<property xmlns:d3p1="http://TisExchange/" name="СсылкаНаОбъект" type="d3p1:ЛюбаяСсылка" lowerBound="0"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="Справочник.ДоговорыКонтрагентов" base="d2p1:Object">
+		<property xmlns:d3p1="http://TisExchange/" name="ID" type="d3p1:ТипУникальныйИдентификатор"/>
+		<property xmlns:d3p1="http://TisExchange/" name="Наименование" type="d3p1:ТипНаименование"/>
+		<property name="Код" type="xs:string"/>
+		<property name="Номер" type="xs:string"/>
+		<property name="Дата" type="xs:date"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="Справочник.Контрагенты" base="d2p1:Object">
+		<property xmlns:d3p1="http://TisExchange/" name="ID" type="d3p1:ТипУникальныйИдентификатор"/>
+		<property xmlns:d3p1="http://TisExchange/" name="Наименование" type="d3p1:ТипНаименование"/>
+		<property name="ИНН">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="12"/>
+		</property>
+		<property name="КПП" lowerBound="0">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="9"/>
+		</property>
+		<property name="ФизЛицо" type="xs:boolean"/>
+		<property xmlns:d3p1="http://TisExchange/" name="РегистрационныйНомерУчастника" type="d3p1:ТипУникальныйИдентификатор" lowerBound="0"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="Справочник.Организации" base="d2p1:Object">
+		<property xmlns:d3p1="http://TisExchange/" name="ID" type="d3p1:ТипУникальныйИдентификатор"/>
+		<property xmlns:d3p1="http://TisExchange/" name="Наименование" type="d3p1:ТипНаименование"/>
+		<property name="ИНН">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="12"/>
+		</property>
+		<property name="КПП">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="9"/>
+		</property>
+		<property xmlns:d3p1="http://TisExchange/" name="РегистрационныйНомерУчастника" type="d3p1:ТипУникальныйИдентификатор" lowerBound="0"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="Справочник.Склады" base="d2p1:Object">
+		<property xmlns:d3p1="http://TisExchange/" name="ID" type="d3p1:ТипУникальныйИдентификатор"/>
+		<property name="Код" type="xs:string"/>
+		<property xmlns:d3p1="http://TisExchange/" name="Наименование" type="d3p1:ТипНаименование"/>
+		<property name="ИдентификаторМДЛП" type="xs:string"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="Справочник.Номенклатура" base="d2p1:Object">
+		<property xmlns:d3p1="http://TisExchange/" name="ID" type="d3p1:ТипУникальныйИдентификатор"/>
+		<property name="Код" type="xs:string"/>
+		<property xmlns:d3p1="http://TisExchange/" name="Наименование" type="d3p1:ТипНаименование"/>
+		<property name="КодЕИ" type="xs:string"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="Справочник.СерииНоменклатуры" base="d2p1:Object">
+		<property xmlns:d3p1="http://TisExchange/" name="ID" type="d3p1:ТипУникальныйИдентификатор"/>
+		<property name="Код" type="xs:string"/>
+		<property xmlns:d3p1="http://TisExchange/" name="Наименование" type="d3p1:ТипНаименование"/>
+		<property name="СрокГодности" type="xs:date" lowerBound="0"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://www.1c.ru/SSL/Exchange/Message" name="Документ.ОприходованиеПокупателем" base="d2p1:Object">
+		<property xmlns:d3p1="http://TisExchange/" name="ID" type="d3p1:ТипУникальныйИдентификатор"/>
+		<property name="Номер" type="xs:string"/>
+		<property name="Дата" type="xs:dateTime"/>
+		<property xmlns:d3p1="http://TisExchange/" name="ПрефиксОрганизации" type="d3p1:ТипПрефиксОрганизации"/>
+		<property xmlns:d3p1="http://TisExchange/" name="Организация" type="d3p1:Справочник.Организации"/>
+		<property xmlns:d3p1="http://TisExchange/" name="ИДМестаДеятельности" type="d3p1:ТипИдентификаторМестаДеятельности"/>
+		<property xmlns:d3p1="http://TisExchange/" name="Контрагент" type="d3p1:Справочник.Контрагенты" lowerBound="0"/>
+		<property xmlns:d3p1="http://TisExchange/" name="ИДМестаДеятельностиКонтрагента" type="d3p1:ТипИдентификаторМестаДеятельности" lowerBound="0"/>
+		<property xmlns:d3p1="http://TisExchange/" name="НомераУпаковок" type="d3p1:Документ.ОприходованиеПокупателем.НомераУпаковок" lowerBound="0"/>
+		<property xmlns:d3p1="http://TisExchange/" name="НомераТранспортныхУпаковок" type="d3p1:Документ.ОприходованиеПокупателем.НомераТранспортныхУпаковок" lowerBound="0"/>
+	</objectType>
+	<objectType name="Документ.ОприходованиеПокупателем.НомераУпаковок">
+		<property xmlns:d3p1="http://TisExchange/" name="Строка" type="d3p1:Документ.ОприходованиеПокупателем.НомераУпаковок.Строка" upperBound="-1"/>
+	</objectType>
+	<objectType name="Документ.ОприходованиеПокупателем.НомераУпаковок.Строка">
+		<property name="НомерСтроки" type="xs:int"/>
+		<property xmlns:d3p1="http://TisExchange/" name="SGTIN" type="d3p1:ТипSGTIN"/>
+		<property xmlns:d3p1="http://TisExchange/" name="SSCC" type="d3p1:ТипSSCC" lowerBound="0"/>
+		<property xmlns:d3p1="http://TisExchange/" name="GTIN" type="d3p1:ТипGTIN" lowerBound="0"/>
+		<property xmlns:d3p1="http://TisExchange/" name="НомерСерии" type="d3p1:ТипНомерСерии" lowerBound="0"/>
+		<property name="СрокГодности" type="xs:date" lowerBound="0"/>
+		<property xmlns:d3p1="http://TisExchange/" name="ИдентификаторСтроки" type="d3p1:ТипУникальныйИдентификатор" lowerBound="0"/>
+	</objectType>
+	<objectType name="Документ.ОприходованиеПокупателем.НомераТранспортныхУпаковок">
+		<property xmlns:d3p1="http://TisExchange/" name="Строка" type="d3p1:Документ.ОприходованиеПокупателем.НомераТранспортныхУпаковок.Строка" upperBound="-1"/>
+	</objectType>
+	<objectType name="Документ.ОприходованиеПокупателем.НомераТранспортныхУпаковок.Строка">
+		<property name="НомерСтроки" type="xs:int"/>
+		<property xmlns:d3p1="http://TisExchange/" name="SSCC" type="d3p1:ТипSSCC"/>
+		<property xmlns:d3p1="http://TisExchange/" name="ИдентификаторСтроки" type="d3p1:ТипУникальныйИдентификатор" lowerBound="0"/>
+	</objectType>
+	<objectType name="ЛюбаяСсылка">
+		<property name="СсылкаНаОбъект">
+			<typeDef xsi:type="ObjectType" ordered="false" sequenced="true">
+				<property xmlns:d5p1="http://TisExchange/" name="Документ_ОприходованиеПокупателемСсылка" type="d5p1:Документ.ОприходованиеПокупателем" lowerBound="0"/>
+				<property xmlns:d5p1="http://TisExchange/" name="Документ_TAТ_ОбратнаяСхема" type="d5p1:Документ.TAТ_ОбратнаяСхема" lowerBound="0"/>
+			</typeDef>
+		</property>
+	</objectType>
+</package>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70d6a5a5-3b4c-4d79-bf0f-9f8e2733ec17">
+  <producedTypes>
+    <managerType typeId="0ecca5e2-28e7-4fcd-ade4-cfa7b8236a87" valueTypeId="1cd40b57-5907-44d7-bee5-8823c1bfb1d8"/>
+    <valueManagerType typeId="73d7d283-ecf5-46e6-9fa9-52be820a7490" valueTypeId="537ea76c-c052-4dc7-9020-a8cc97785dd9"/>
+    <valueKeyType typeId="13a201b1-7cf8-4543-a463-6d0e391af693" valueTypeId="e7cdca6f-0e37-4107-acd8-07b3a0fe2b39"/>
+  </producedTypes>
+  <name>База1СДляПросмотраИсключенийПоУмолчанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>База 1С для просмотра исключений по умолчанию</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.БазыДанных1С</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

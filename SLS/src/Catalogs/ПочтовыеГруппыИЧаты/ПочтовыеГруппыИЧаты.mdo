@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c51571b-bd2c-4ce5-b80d-04c9fa324a33">
+  <producedTypes>
+    <objectType typeId="31c38c81-18ca-414a-adfd-9bcbdaa541c3" valueTypeId="bdafebb2-eb35-4a52-8341-ba2c886c11fd"/>
+    <refType typeId="4942f039-6eba-439e-849c-d2981ad6c44a" valueTypeId="79429395-16b0-4507-b193-13ed6edf3cf9"/>
+    <selectionType typeId="abfefbb4-3f41-42ac-9a5b-059dd6cd59ab" valueTypeId="6400a0ed-66ec-4da0-8fee-ad2ff56317ec"/>
+    <listType typeId="7989b0c2-0e83-4d0b-ae7d-f7a12ac91fa6" valueTypeId="31f6d686-bbff-4c85-b2ca-4497d13fccc5"/>
+    <managerType typeId="7a7febab-3db9-4ba0-a48b-c9baf08b8650" valueTypeId="a249ba48-17d5-492e-b162-9c95240f584b"/>
+  </producedTypes>
+  <name>ПочтовыеГруппыИЧаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Почтовые группы и чаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПочтовыеГруппыИЧаты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПочтовыеГруппыИЧаты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>7</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПочтовыеГруппыИЧаты.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="c586c5fe-fee5-4821-9fe5-338ba9f32a2a">
+    <name>EMail</name>
+    <synonym>
+      <key>ru</key>
+      <value>e-mail</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="50871be7-ca58-408b-a4d3-d45f2793c0f9">
+    <name>EMailLink</name>
+    <synonym>
+      <key>ru</key>
+      <value>e-mail (link)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b8270e98-483f-453a-890b-bcb8c45e8545">
+    <name>TelegramID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Telegram ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>75</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8d7908d0-6e3a-489d-8fe7-994dd84410f8">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

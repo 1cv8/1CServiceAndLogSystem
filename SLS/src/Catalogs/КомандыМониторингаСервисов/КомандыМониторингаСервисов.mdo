@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eabf7c30-b146-4eea-a84e-a8265a4227a3">
+  <producedTypes>
+    <objectType typeId="07305a96-c8e1-49d4-b0fa-2a1c9dad0354" valueTypeId="4e6875d9-b056-4faa-b15d-60ec9fb228d8"/>
+    <refType typeId="765712fb-3b07-4839-b544-a00201ebc182" valueTypeId="c2e9d0ce-602d-4c0b-a8b0-d4ae7d3c00eb"/>
+    <selectionType typeId="e8f94b92-9847-4548-834b-f26ea475a82a" valueTypeId="376c7547-db2a-4ac1-a4cf-35526824ea54"/>
+    <listType typeId="f184397c-8372-4623-87d0-4b99b6a17b44" valueTypeId="e34779f4-073d-472e-8cf1-8dc4f22874b9"/>
+    <managerType typeId="8590d0e6-bbdd-4ed9-9671-6f8272d3852e" valueTypeId="fa5b088c-3fc9-450c-94ac-f8f27e5bcbe9"/>
+  </producedTypes>
+  <name>КомандыМониторингаСервисов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Команды мониторинга сервисов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КомандыМониторингаСервисов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>3</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КомандыМониторингаСервисов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.КомандыМониторингаСервисов.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.КомандыМониторингаСервисов.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="875c08fa-d4e1-459e-be22-1c6a1e35429f">
+    <name>РеквизитДопУпорядочивания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <comment>АПК:58</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется для упорядочивания (служебный)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f70751c-2f21-414c-8639-8db25f442b31">
+    <name>ТипКоманды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип команды</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыКоманд</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТипыКоманд.EnumValue.ИсполняемыйКод</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="023aae15-2535-4711-bc77-b62280778b70">
+    <name>ИсполняемыйКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исполняемый код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="1d121c2e-74c0-4934-9d25-1995068f795f">
+    <producedTypes>
+      <objectType typeId="aeb16691-f61d-4f68-80f6-8727ff78a471" valueTypeId="0bfa1d7c-2b68-4734-8e81-b7362da5a1d0"/>
+      <rowType typeId="de579997-b0a2-47c7-a549-8b3179b50571" valueTypeId="47d95a89-c698-4bc2-bd18-2317dcde6a7f"/>
+    </producedTypes>
+    <name>ИспользуемыеПараметрыБаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используемые параметры баз</value>
+    </synonym>
+    <attributes uuid="de49849c-e3f4-4cde-8701-2e22b884df13">
+      <name>Параметр</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметр</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СохраняемыеПараметрыБаз1С</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="8282e3ee-bb2a-4bfc-9c70-3a3db8731a81">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a0a987b6-181b-41b7-9297-823aa11fee9e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="84fa524b-e979-4cc5-99d4-5a1c9204c2cd">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="bb64aa20-07aa-4090-afa8-5c9e14b209f7">
+    <name>КонсольКода_src</name>
+    <synonym>
+      <key>ru</key>
+      <value>src</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:Catalog>

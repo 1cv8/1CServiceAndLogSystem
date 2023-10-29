@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9f58dfc-c04d-4bb2-9f0e-7be53cd2273c">
+  <name>Оповещение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оповещение</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделОповещения186</picture>
+  </picture>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.ГруппыПолучателейРассылок</content>
+  <content>Catalog.УчетныеЗаписиЭлектроннойПочты</content>
+  <content>InformationRegister.УС_ОчередьПочта</content>
+  <content>InformationRegister.УС_ОчередьПочтаАрхив</content>
+  <content>DataProcessor.ОповещениеПанельАдминистрирования</content>
+  <content>Catalog.ПочтовыеГруппыИЧаты</content>
+  <content>af41cc33-2eba-4121-8668-e5d70cf02959</content>
+  <subsystems>Telegram</subsystems>
+</mdclass:Subsystem>

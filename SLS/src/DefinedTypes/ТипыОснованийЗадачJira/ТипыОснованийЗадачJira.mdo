@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="16e49872-f02e-42b7-b859-314fad0f2865">
+  <producedTypes>
+    <containerType typeId="2ecda2f8-f27f-4bac-9a87-a755d6a08060" valueTypeId="714737b7-6232-499e-b3ac-89c81e2ecc99"/>
+  </producedTypes>
+  <name>ТипыОснованийЗадачJira</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы оснований задач jira</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ИсключенияВБазах1С</types>
+  </type>
+</mdclass:DefinedType>

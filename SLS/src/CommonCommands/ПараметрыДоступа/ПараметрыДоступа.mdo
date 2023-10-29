@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c97cecd-42f8-4a99-9d21-b6f77e5b5343">
+  <name>ПараметрыДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры доступа</value>
+  </synonym>
+  <group>FormNavigationPanelGoTo</group>
+  <commandParameterType>
+    <types>CatalogRef._НастройкиПодключенийКСервисамHTTP</types>
+    <types>CatalogRef.СерверыSQL</types>
+    <types>CatalogRef.Кластеры1СПредприятия</types>
+    <types>CatalogRef.БазыДанных1С</types>
+    <types>CatalogRef.БазыДанныхSQL</types>
+  </commandParameterType>
+  <representation>PictureAndText</representation>
+</mdclass:CommonCommand>

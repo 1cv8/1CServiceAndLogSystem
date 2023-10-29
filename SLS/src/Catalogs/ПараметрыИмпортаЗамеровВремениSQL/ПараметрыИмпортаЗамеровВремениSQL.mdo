@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2bc40f1-2e78-4700-a402-1f1c4e99ca01">
+  <producedTypes>
+    <objectType typeId="70e15377-4737-4ddd-b7a9-f073525fc8fa" valueTypeId="af9d17f3-0bd1-44a4-880e-6507f6cc4c06"/>
+    <refType typeId="d7cc75dd-38da-49ed-9934-26b53efb4ce4" valueTypeId="ab3ae436-9f9f-4058-8bca-539b75d284c2"/>
+    <selectionType typeId="6a8c0aa2-5a53-4644-80f9-a294c548046d" valueTypeId="dc60af44-6ee8-40f8-b479-1a44f3b96809"/>
+    <listType typeId="cb1506ad-1960-4777-a34b-e4d233c7a8a0" valueTypeId="03d3fbdf-cd94-436b-b8bf-ec6207aac149"/>
+    <managerType typeId="98e0418c-81fd-4fa9-b660-dd88332284ba" valueTypeId="f770ae79-1000-4a86-a08a-d6ca28a64e71"/>
+  </producedTypes>
+  <name>ПараметрыИмпортаЗамеровВремениSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры импорта замеров времени SQL</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПараметрыИмпортаЗамеровВремениSQL.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПараметрыИмпортаЗамеровВремениSQL.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПараметрыИмпортаЗамеровВремениSQL.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="d3338f64-c15c-45cd-9964-c856a0cdfa02">
+    <name>ТаблицаКлючевыеОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица ключевые операции</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3ac2aa21-f636-42c4-be03-2000dd9c27c7">
+    <name>КлючевыеОперацииРеквизитИмя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключевые операции реквизит имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="95c90970-56e8-4ae7-8a9a-32c050ddba58">
+    <name>КлючевыеОперацииРеквизитПриоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключевые операции реквизит приоритет</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9486657e-baa4-4650-a469-19691cb29d4a">
+    <name>КлючевыеОперацииРеквизитЦелевоеВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключевые операции реквизит целевое время</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9cec9776-aabe-4529-b608-6cfa59471901">
+    <name>КлючевыеОперацииРеквизитДлительная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключевые операции реквизит длительная</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bea18b36-1ef2-4d0b-a345-9c237ead7ab4">
+    <name>ТаблицаЗамерыВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица замеры времени</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="541547ae-c1af-4344-bfbd-05d7451ad235">
+    <name>ЗамерыВремениРеквизитКлючеваяОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замеры времени реквизит ключевая операция</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c1d11778-48d6-4dea-8dd3-83444232b830">
+    <name>ЗамерыВремениРеквизитДатаНачалаЗамера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замеры времени реквизит дата начала замера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="866b1d1d-e755-4085-9041-b5d4a0f8afa5">
+    <name>ЗамерыВремениРеквизитНомерСеанса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замеры времени реквизит номер сеанса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="353bb315-5653-442c-979e-f019444d2504">
+    <name>ЗамерыВремениРеквизитДатаЗаписиНачалоЧаса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замеры времени реквизит дата записи начало часа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2fc5e0b6-2789-4e6b-aa81-24b0e32b82dd">
+    <name>ЗамерыВремениРеквизитВремяВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замеры времени реквизит время выполнения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="25964805-94c5-432c-86cc-03d69a1b8da7">
+    <name>ЗамерыВремениРеквизитВесЗамера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замеры времени реквизит вес замера</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2445dc6f-3b8c-4be8-99f1-d0fad1518fdb">
+    <name>ЗамерыВремениРеквизитКомментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замеры времени реквизит комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="adeb83c7-8afc-4ede-b13b-8aaf7b353d0d">
+    <name>ЗамерыВремениРеквизитДатаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замеры времени реквизит дата записи</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="19993585-840a-4706-ba38-2c10f081249f">
+    <name>ЗамерыВремениРеквизитДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замеры времени реквизит дата окончания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d45005ec-ee80-4cf5-a0c2-7f7fcf8ca1f5">
+    <name>ЗамерыВремениРеквизитПользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замеры времени реквизит пользователь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="121c57d4-195e-4db8-a55d-67f01fa3b73e">
+    <name>ЗамерыВремениРеквизитДатаЗаписиЛокальная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замеры времени реквизит дата записи локальная</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8ffa46e6-ca35-48d8-a2ac-f589c448656a">
+    <name>ЗамерыВремениРеквизитВыполненСОшибкой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замеры времени реквизит выполнен с ошибкой</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a7380824-1844-4408-9174-08983443ba4b">
+    <name>ЗамерыВремениРеквизитКомпьютер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замеры времени реквизит компьютер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="72091469-fb81-439c-8a50-36e5059d68b9">
+    <name>СправочникКомпьютеры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справочник компьютеры</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="50578231-f9a8-4ffd-a5c2-ef626a41e572">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

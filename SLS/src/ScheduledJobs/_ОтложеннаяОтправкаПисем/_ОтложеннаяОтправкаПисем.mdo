@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9eccb286-db3b-42fa-8c53-63f958d41246">
+  <name>_ОтложеннаяОтправкаПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отложенная отправка писем</value>
+  </synonym>
+  <methodName>CommonModule._МАА_Процедуры._ОтложеннаяОтправкаПисем</methodName>
+  <description>Отложенная отправка писем</description>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

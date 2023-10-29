@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59fc63d4-a720-4426-809e-bad9c9a4622d">
+  <producedTypes>
+    <selectionType typeId="9434f502-c0f0-48da-9d4e-37a2fdaec05e" valueTypeId="dd042423-be14-486f-adb4-4470c05ba363"/>
+    <listType typeId="60e0bbd0-f665-4c90-9d31-10e40c6ee662" valueTypeId="2d615908-8615-456f-bc2f-c217bd672350"/>
+    <managerType typeId="63d818d8-ad6c-4233-83dc-2e9d531dd74b" valueTypeId="0e806474-fdb4-4a08-93f0-8ca03eee3de7"/>
+    <recordSetType typeId="123db132-e356-4027-8790-52bf98de8fd8" valueTypeId="4b3985e3-b2d7-460a-8e29-7715daa40ed2"/>
+    <recordKeyType typeId="6eb9323d-b9d5-4a4e-ad37-cc1b26e2b7cb" valueTypeId="54c27fe8-62d7-4a92-b44e-8048e275a1d1"/>
+    <recordType typeId="0e7a1826-192f-43a0-89ee-8a2128984e40" valueTypeId="ff245abd-ab68-4565-ab3b-c0590f3800f9"/>
+    <recordManagerType typeId="6dd3e791-bd51-4e07-b210-22ab41901c06" valueTypeId="ed0e6d8d-fb29-4290-aa2a-97b4a23d6a30"/>
+  </producedTypes>
+  <name>ДатыСобранныхЗапросовSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты собранных запросов SQL</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="dffc1386-4265-4a87-a51c-bc775de25c05">
+    <name>ДатаПоследнегоСбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последнего сбора</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1c1731e2-cb16-4099-8919-a9daf489569d">
+    <name>СерверSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер SQL</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СерверыSQL</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

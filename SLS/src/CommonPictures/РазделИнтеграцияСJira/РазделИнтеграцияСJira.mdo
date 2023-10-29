@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b952877-e492-4cfa-90a2-67fc5c0f6c44">
+  <name>РазделИнтеграцияСJira</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел интеграция с jira</value>
+  </synonym>
+  <comment>https://www.iconsdb.com/</comment>
+</mdclass:CommonPicture>

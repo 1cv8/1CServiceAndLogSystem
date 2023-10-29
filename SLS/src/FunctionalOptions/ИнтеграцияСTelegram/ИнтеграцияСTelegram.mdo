@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15fded3f-53f6-440d-bdba-d16a3ca4ba1c">
+  <name>ИнтеграцияСTelegram</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с telegram</value>
+  </synonym>
+  <location>Constant.ИнтеграцияСTelegram</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Constant.УчетнаяЗаписьTelegramПоУмолчанию</content>
+  <content>Catalog.УчетныеЗаписиTelegram</content>
+  <content>Catalog.ГруппыПолучателейРассылок.Attribute.TelegramBot</content>
+  <content>Catalog.ГруппыПолучателейРассылок.Attribute.ОповещениеTelegram</content>
+</mdclass:FunctionalOption>

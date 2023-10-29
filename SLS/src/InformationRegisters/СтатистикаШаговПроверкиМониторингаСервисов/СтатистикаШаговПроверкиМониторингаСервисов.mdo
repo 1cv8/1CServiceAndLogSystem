@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="321ac855-4628-4557-84d1-b28c1f1c56d3">
+  <producedTypes>
+    <selectionType typeId="ea33d72f-a8ad-49fa-954d-6e72ceefc5f8" valueTypeId="0376bb45-63ea-40d6-8f7b-b4b6b25e7a82"/>
+    <listType typeId="2ae0e0b1-53c0-4041-af8e-48183e92de60" valueTypeId="0953eda7-f7bd-4c08-865b-4860c2e10dc1"/>
+    <managerType typeId="ff0fb25e-2adb-4a88-923e-2f93285aeb86" valueTypeId="f5243dee-6d33-464a-bd4c-234318a023c9"/>
+    <recordSetType typeId="0586d361-73d8-4119-8a34-970695477cf5" valueTypeId="aaba7e2e-7fe1-4b60-8d22-2a460fb2d1ad"/>
+    <recordKeyType typeId="544ed750-87f3-4b06-9aa2-91899ce9666e" valueTypeId="c3ee40fc-4501-49a6-859d-cc97b143cb8d"/>
+    <recordType typeId="44e7d80a-8702-4dba-8077-4bc7fec758fb" valueTypeId="2cc17dff-a62c-4f25-961a-5309c2b299c3"/>
+    <recordManagerType typeId="85884045-3481-45d5-bd90-087eea0a236e" valueTypeId="9e5df674-24a8-4efb-800c-324fd1000102"/>
+  </producedTypes>
+  <name>СтатистикаШаговПроверкиМониторингаСервисов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика шагов проверки мониторинга сервисов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="652e0f7b-3d26-4888-909e-fad48fd9e77c">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="21fd440d-fe14-4f55-aaf6-7500791522c4">
+    <name>ДатаПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата проверки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bbe2ca4f-6b77-4e71-9bbd-6272ce70f889">
+    <name>Проверка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПроверкиМониторингаСервисов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4db395c2-af88-4813-82ef-779580dc4ff5">
+    <name>НомерСтрокиПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер строки проверки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

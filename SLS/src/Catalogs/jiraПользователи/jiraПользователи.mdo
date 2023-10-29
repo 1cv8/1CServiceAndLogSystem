@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="898b28f4-9d5e-4e25-82d3-80018ed082e5">
+  <producedTypes>
+    <objectType typeId="e14b93b6-99eb-4501-9e47-1817553457f0" valueTypeId="21b06ee9-7660-4420-b060-9c4b84308852"/>
+    <refType typeId="deddca8f-b5f1-46df-85fb-eb722e471f70" valueTypeId="0b0dba7e-5dc1-44bb-b5e0-fe9da673e1ed"/>
+    <selectionType typeId="f43b8a38-96a0-4861-8e3d-fb9c027348e7" valueTypeId="58c22145-6485-4987-950b-e02050b13fc6"/>
+    <listType typeId="90471329-1089-4836-8b5e-5910505ad785" valueTypeId="f8b59d02-cd3d-4b6a-b1a4-dc1ec6136118"/>
+    <managerType typeId="216f2bf9-79c1-4e78-83e3-26a78dd14315" valueTypeId="d20b2e4f-573e-4c8e-88f6-ee308c222753"/>
+  </producedTypes>
+  <name>jiraПользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Jira пользователи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.jiraПользователи.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.jiraПользователи.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.jiraСервера</owners>
+  <codeLength>12</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <codeSeries>WithinOwnerSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.jiraПользователи.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="79236af6-dfaf-4054-99f6-72c2d77732bf">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="57ea003c-f9e3-42ae-9a19-696535f9a9e0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

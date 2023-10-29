@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="117685d6-6f46-497c-8e0d-6b6445ece167">
+  <producedTypes>
+    <selectionType typeId="f44f9146-1747-4816-8a1d-e5259a57a187" valueTypeId="5d21d56c-131d-4298-bc76-6b41b099c941"/>
+    <listType typeId="708e335a-a011-4130-87ed-dec84c525a56" valueTypeId="1f03eb13-ea08-46da-b8ac-93a12c2cb297"/>
+    <managerType typeId="b960c678-986d-433b-b146-bc4c4a5501a2" valueTypeId="f89a4c22-381e-47db-bb91-431bcf06a6ae"/>
+    <recordSetType typeId="5cf55d33-f153-4775-bafe-a1d8d8f28a96" valueTypeId="c876b3eb-aaf4-4e47-bdfa-0c8d413ccf19"/>
+    <recordKeyType typeId="224a7ff2-1c0c-4175-b4c3-5a79677c4f63" valueTypeId="819f2e9e-e39a-4333-a90e-563cf0243bb6"/>
+    <recordType typeId="2ac01858-1a2b-44bb-ae8e-1807b09437b0" valueTypeId="2368e4e3-1839-49e8-b17a-62e99425d838"/>
+    <recordManagerType typeId="9fc7dbb4-1d64-4de7-ac24-21544ecf27b0" valueTypeId="2d90135a-d72c-4aa8-8a11-e04e5430ae97"/>
+  </producedTypes>
+  <name>ДатыСобранныхТранзакцийSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты собранных транзакций SQL</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="254bf27a-1444-4fc0-bc1d-a9298b27559d">
+    <name>ДатаПоследнегоСбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последнего сбора</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5a3263c4-c1d3-4e9e-8e6a-f1bd75cc6469">
+    <name>СерверSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер SQL</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СерверыSQL</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

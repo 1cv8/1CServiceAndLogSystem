@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48cc42a4-5f9b-4c95-9163-e33ba93b35ca">
+  <producedTypes>
+    <objectType typeId="5e98ff35-a96f-4d2b-bf29-1468385dd440" valueTypeId="1d63dd6b-a7a4-4964-aeda-f17e46f72629"/>
+    <refType typeId="f600ff47-b654-422c-902c-6f5c9c5dd781" valueTypeId="703d3863-682e-451c-a7cc-12bcf5e245e6"/>
+    <selectionType typeId="56e70bc7-5899-4dd8-9125-843aeed953a7" valueTypeId="3dc6dc17-0af1-4568-ab58-aff6a1d0c296"/>
+    <listType typeId="2e4d02c7-24eb-4cf0-978d-6bfa3718599f" valueTypeId="ad46102e-257d-4090-94a9-3760f0d2538e"/>
+    <managerType typeId="6edf108d-fb75-4916-a41d-42e4bb3bd2a7" valueTypeId="3f5f2865-1c96-443c-8aa7-fce45720aefb"/>
+  </producedTypes>
+  <name>ВидыОжиданийSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды ожиданий SQL</value>
+  </synonym>
+  <inputByString>Catalog.ВидыОжиданийSQL.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

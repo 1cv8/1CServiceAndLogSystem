@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f65309d-0590-4d31-a013-1b835bdd4f13">
+  <producedTypes>
+    <managerType typeId="e173d2c2-2ca7-42f2-8cd6-e6605a4e9818" valueTypeId="d2413f79-1238-4dcb-bbfe-5240d0a4f773"/>
+    <valueManagerType typeId="1469edf9-f93f-470e-b34c-fa17be3d4ba4" valueTypeId="95cd55d2-8158-4f4e-b597-79f7ff83a7d7"/>
+    <valueKeyType typeId="20608f88-e976-40eb-9cdc-df669321d8cb" valueTypeId="07842df8-5e6f-4ff7-9262-d49701733f7a"/>
+  </producedTypes>
+  <name>ИнтеграцияСTelegram</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с telegram</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

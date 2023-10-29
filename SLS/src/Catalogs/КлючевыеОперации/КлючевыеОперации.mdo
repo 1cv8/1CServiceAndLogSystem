@@ -282,6 +282,22 @@
     <indexing>Index</indexing>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="b15b054a-6a33-4605-af1b-0a9897afa077">
+    <name>База1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>База1 С</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БазыДанных1С</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="085a08f3-9d93-429d-9b1b-9065ab8363f7">
     <name>ФормаЭлемента</name>
     <synonym>

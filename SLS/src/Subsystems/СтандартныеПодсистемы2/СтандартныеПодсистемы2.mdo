@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6bf8c1f2-54ea-4eb4-be73-132b37d29d42">
+  <name>СтандартныеПодсистемы2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартные подсистемы2</value>
+  </synonym>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>InformationRegister.ФИОФизическихЛиц</content>
+  <content>Enum.ПолФизическогоЛица</content>
+  <subsystems>РаботаСSQL</subsystems>
+  <subsystems>Оповещение</subsystems>
+  <subsystems>КоннекторHTTP</subsystems>
+  <subsystems>ИР</subsystems>
+</mdclass:Subsystem>

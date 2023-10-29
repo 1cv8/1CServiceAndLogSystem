@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa956376-1761-4eef-91c8-9ae639114b68">
+  <name>РегистрацияИсключений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация исключений</value>
+  </synonym>
+  <rootURL>exept</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="c59530f5-35b0-4ce3-8fd0-eeb3d8013489">
+    <name>Тест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тест</value>
+    </synonym>
+    <template>/test</template>
+    <methods uuid="883ab3fe-8728-4897-aae9-38c653b8d365">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ТестGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="cee8886a-1f37-444a-be9c-fd93b4917176">
+    <name>ADD</name>
+    <synonym>
+      <key>ru</key>
+      <value>ADD</value>
+    </synonym>
+    <template>/{ID}</template>
+    <methods uuid="da413c6b-836d-48de-8f7a-5ea47f714818">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>ADDPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

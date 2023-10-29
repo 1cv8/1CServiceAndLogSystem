@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="462ddc7e-64c9-4562-855b-fbb26ecc5b4c">
+  <producedTypes>
+    <objectType typeId="b0241d7e-f724-4921-8b57-15ec438ae1fe" valueTypeId="c9134431-d7ee-4147-be33-652f8ce1c918"/>
+    <managerType typeId="481540c4-a054-446c-b89d-c25678765904" valueTypeId="f15c8088-6a0f-4a78-9185-da74d4c0dcef"/>
+  </producedTypes>
+  <name>ОтправкаСообщенийЖурналаРегистрацииВЖурналИсключений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка сообщений журнала регистрации в журнал исключений</value>
+  </synonym>
+  <defaultForm>DataProcessor.ОтправкаСообщенийЖурналаРегистрацииВЖурналИсключений.Form.ФормаНастроекОбычная</defaultForm>
+  <auxiliaryForm>DataProcessor.ОтправкаСообщенийЖурналаРегистрацииВЖурналИсключений.Form.ФормаНастроек</auxiliaryForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="5809cb39-d64c-415e-b74f-c1d54b907f67">
+    <name>Host</name>
+    <synonym>
+      <key>ru</key>
+      <value>Host</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="222e8190-d45f-49a6-9fca-6c06b495267e">
+    <name>TimeOut</name>
+    <synonym>
+      <key>ru</key>
+      <value>Time out</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a9d60063-523f-4c25-99e2-5550b87ce2bd">
+    <name>Port</name>
+    <synonym>
+      <key>ru</key>
+      <value>Port</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="31c07f17-3c12-48b8-8996-73fe4e310b94">
+    <name>ЗаголовокПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок по умолчанию</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6d6cd9b3-1138-4ae1-a03a-64cde795cc3d">
+    <name>ТелоПоУмолчанию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тело по умолчанию</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dd842209-722f-4e25-a113-6c31a6abd5b2">
+    <name>Level</name>
+    <synonym>
+      <key>ru</key>
+      <value>Level</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f22eda7a-21a3-4fcf-aef7-04682cc84edc">
+    <name>ID_project</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID project</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0794fd40-7098-44c3-916d-97b169319506">
+    <name>КоличествоЗаписейЗаРаз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество записей за раз</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="54d65140-8985-4f53-8611-25016b53ac00">
+    <name>ПользовательВыгрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь выгрузки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e264ff07-8c81-48bc-b3d6-a97ec4e12f7c">
+    <name>АдресРесурса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес ресурса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4b3b9104-e884-49b2-b130-cd02a237f3e6">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cdb53a89-4a39-4f67-96bd-e1a2be10b7ce">
+    <name>Пароль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="643a2d34-4368-4e57-b19b-0045f9ed25f4">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="718044c8-b984-4468-bbd3-98e1098e7a8b">
+    <name>ФормаНастроекОбычная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек обычная</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

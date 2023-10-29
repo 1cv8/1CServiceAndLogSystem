@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a164cf0-e27b-49f1-b1d7-97e0f9df7543">
+  <name>OneS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандарт 1С</value>
+  </synonym>
+</mdclass:Style>

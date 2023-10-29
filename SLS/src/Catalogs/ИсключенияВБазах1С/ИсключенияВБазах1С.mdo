@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6fb3539c-08f3-4846-bc40-5f63c8ebf7a6">
+  <producedTypes>
+    <objectType typeId="aefb6ad6-23b5-4887-8d88-a95f07bbf5d3" valueTypeId="359495b9-3501-44d6-90b1-d0a787127159"/>
+    <refType typeId="5dc5fdfe-499d-445f-ad7d-4c42208d7839" valueTypeId="7881f050-8df9-48de-b041-c52931b52e50"/>
+    <selectionType typeId="8aeab92c-c6de-446e-ad18-3a537d42d8bf" valueTypeId="546eef0b-4199-4030-9d4e-91cd16d445d1"/>
+    <listType typeId="236f0026-f560-4871-8b04-e212d9c4434f" valueTypeId="698c8fd2-6fac-4a1e-8455-d6c5394ff73a"/>
+    <managerType typeId="035491e2-2b0e-45fe-b1bb-65e415863cc9" valueTypeId="cab98944-87d8-4655-be06-467cdae86160"/>
+  </producedTypes>
+  <name>ИсключенияВБазах1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исключения в базах 1С</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ИсключенияВБазах1С.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ИсключенияВБазах1С.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockFields>Catalog.ИсключенияВБазах1С.Attribute.Хэш</dataLockFields>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>12</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИсключенияВБазах1С.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ИсключенияВБазах1С.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ИсключенияВБазах1С.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="b99b37b2-b6f2-4a58-8f96-9b2fe17a5c79">
+    <name>ИмяСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя события</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="85b12d5b-9d41-43bd-b0ca-d7065c4ea7b5">
+    <name>ТекстИсключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст исключения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f940b536-06ba-4cd9-bfe1-ca7a28c58348">
+    <name>Хэш</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэш</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ff902548-d29f-4d77-9668-3532752ff6f7">
+    <name>ТекстИсключенияШаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст исключения шаблон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b9ab2ed1-6da6-4899-9ef0-13d7d2373b6f">
+    <name>ХэшШаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хэш шаблон</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a075399f-b6a0-4a70-b45b-39a0c2787da4">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fc36c58b-7982-4a21-80fe-917ed361afe0">
+    <name>ГруппаРассылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа рассылки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыПолучателейРассылок</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bd6e6a81-2ef6-4fb9-b5fe-efd5611964e1">
+    <name>Категория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КатегорииИсключений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="868abbd2-8afa-4010-aeaf-566a90d31ca2">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="5d49c7ab-76fe-4897-959d-88642377be68">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6e33acc3-1074-43eb-945f-e1a25007feab">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="68d64a1c-a625-4a18-8eaa-c440b6ab54d5">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="93824cf4-8dd2-439c-b853-2fb5fdf635eb">
+    <name>ФормаРМИсключений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма РМ исключений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="163585be-b97c-476d-9d24-b51b8242f9db">
+    <name>РМОбработкаИсключений</name>
+    <synonym>
+      <key>ru</key>
+      <value>РМ обработка исключений</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="47bc8940-3547-4fab-a0d3-c09ecd4de6cf">
+    <name>ПерезаполнитьИсключениеВСобытиях</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перезаполнить исключение в событиях</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.ИсключенияВБазах1С</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

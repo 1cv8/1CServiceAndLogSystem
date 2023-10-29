@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1b50aa8-ac6c-47df-a6d8-8032817c07df">
+  <name>Оповещение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оповещение</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Catalog.ГруппыПолучателейРассылок</content>
+  <content>Enum.ПолФизическогоЛица</content>
+  <content>InformationRegister.ФИОФизическихЛиц</content>
+  <content>InformationRegister.УС_ОчередьПочта</content>
+  <content>InformationRegister.УС_ОчередьПочтаАрхив</content>
+  <content>ScheduledJob.АрхивироватьОчередьПочты</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы2</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonAttribute xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4d4f114-33c6-40cf-89fa-d57aa33c0ad3">
+  <name>__ДатаСоздания</name>
+  <synonym>
+    <key>en</key>
+    <value>Creation date</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Дата создания</value>
+  </synonym>
+  <synonym>
+    <key>bg</key>
+    <value>Дата на създаване</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers/>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataHistory>Use</dataHistory>
+  <fillValue xsi:type="core:UndefinedValue"/>
+  <autoUse>DontUse</autoUse>
+  <dataSeparation>DontUse</dataSeparation>
+  <usersSeparation>DontUse</usersSeparation>
+  <authenticationSeparation>DontUse</authenticationSeparation>
+  <configurationExtensionsSeparation>DontUse</configurationExtensionsSeparation>
+  <fullTextSearch>Use</fullTextSearch>
+</mdclass:CommonAttribute>

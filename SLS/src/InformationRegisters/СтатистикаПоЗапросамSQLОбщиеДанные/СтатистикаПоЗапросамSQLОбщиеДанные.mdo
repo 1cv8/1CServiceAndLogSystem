@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="44e7583d-0610-4cf3-8428-642e2ce80020">
+  <producedTypes>
+    <selectionType typeId="9487cfb7-958d-41db-b76d-83805e6310a5" valueTypeId="bad07eb7-6f5f-4c70-acca-35bc9fad7b64"/>
+    <listType typeId="b06a8463-e032-44d8-9f68-1e4c61c2df2f" valueTypeId="53e8e11a-88c7-4a5c-af83-858962109a42"/>
+    <managerType typeId="2e3e510c-91d4-47f0-b615-343daae60a2f" valueTypeId="41b6a416-d125-4c8e-8d4e-e991208e8183"/>
+    <recordSetType typeId="45530c72-a0e6-4506-a5d9-a0d3d5a282b5" valueTypeId="31965da2-f4a8-4608-a0a4-164eabeed866"/>
+    <recordKeyType typeId="6d9bba15-5d6d-45e7-b2fe-7414501c81dd" valueTypeId="530cc2d2-545b-4604-b3b6-9a6ad64165c8"/>
+    <recordType typeId="08a042a5-0011-4428-b85f-4b84a90aa718" valueTypeId="636d26b2-91f1-40bc-843e-9b5b11478197"/>
+    <recordManagerType typeId="cf602105-b3c1-4360-8de1-7aefba3f7e01" valueTypeId="e2feebc5-51c7-401f-b835-80104eef0e0f"/>
+  </producedTypes>
+  <name>СтатистикаПоЗапросамSQLОбщиеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика по запросам SQL (Общие данные)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cd220fa1-d2d2-41a4-9c90-65f0ae0625f2">
+    <name>ВсегоЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Всего запросов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7bdd6eb0-f44b-400c-b2e1-ab38b2ba268f">
+    <name>total_elapsed_time</name>
+    <synonym>
+      <key>ru</key>
+      <value>Total elapsed time</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ca1cb9c6-d3a3-4ea4-956d-444bb4cd9379">
+    <name>total_worker_time</name>
+    <synonym>
+      <key>ru</key>
+      <value>Total worker time</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="cf14e228-e1fb-4cdf-8c56-80bc519e2f11">
+    <name>total_physical_reads</name>
+    <synonym>
+      <key>ru</key>
+      <value>Total physical reads</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fcd8eb35-550d-4ebf-8df9-6930dee28a89">
+    <name>total_logical_reads</name>
+    <synonym>
+      <key>ru</key>
+      <value>Total logical reads</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b265e538-ceaa-4c19-85ca-c9a3588b631f">
+    <name>total_logical_writes</name>
+    <synonym>
+      <key>ru</key>
+      <value>Total logical writes</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="93780159-0056-4510-ae6c-42207665ff50">
+    <name>СерверSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер SQL</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СерверыSQL</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5d4125eb-4915-4477-b2e6-3248a1fca2d3">
+    <name>ДатаСбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата сбора</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

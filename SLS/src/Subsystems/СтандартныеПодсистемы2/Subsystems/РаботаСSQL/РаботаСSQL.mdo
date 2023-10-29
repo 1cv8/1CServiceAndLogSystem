@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb5954e6-bb62-4288-b824-d280057786f5">
+  <name>РаботаСSQL</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа СSQL</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.РаботаСSQLСервером</content>
+  <content>Role.ЧтениеБазовойНСИ2</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы2</parentSubsystem>
+</mdclass:Subsystem>

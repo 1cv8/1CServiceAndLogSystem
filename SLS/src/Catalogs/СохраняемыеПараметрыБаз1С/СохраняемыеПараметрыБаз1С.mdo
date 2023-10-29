@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7fb589b1-7ccf-4e39-93de-f7c58c45a2a9">
+  <producedTypes>
+    <objectType typeId="031bda83-9d09-45c6-bd45-5756113b0b99" valueTypeId="4beafef9-fcdc-4050-8e50-29887ea2c0cd"/>
+    <refType typeId="4a8cef24-e7af-4bb9-b054-bd3582e82912" valueTypeId="710fe50b-b5f9-480b-ac75-45c18004c311"/>
+    <selectionType typeId="ee9fb6a4-0fb9-4f5d-ab00-6dc23ecb576a" valueTypeId="0206939d-a0ad-401f-91ac-a4444ab9cad7"/>
+    <listType typeId="41db834f-3773-4978-991d-6848e783ca76" valueTypeId="79e9b08f-1e20-4c29-a938-93812482f6eb"/>
+    <managerType typeId="d739e487-d3f8-4193-a286-5e5c5ca287d2" valueTypeId="aad38ef6-e310-4050-9aa4-093020191bbc"/>
+  </producedTypes>
+  <name>СохраняемыеПараметрыБаз1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохраняемые параметры баз 1С</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СохраняемыеПараметрыБаз1С.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СохраняемыеПараметрыБаз1С.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СохраняемыеПараметрыБаз1С.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СохраняемыеПараметрыБаз1С.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СохраняемыеПараметрыБаз1С.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="b28d470d-137b-420c-b367-9495fefa3403">
+    <name>Используется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7c7cdb33-ef17-43f4-bc78-e509338168a2">
+    <name>ЗначениеХранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение хранилище</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ad3f2bf7-47de-4f90-b89a-ccc1c46e0faf">
+    <name>ЗначениеСтрока</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение строка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="03f081ed-60c0-4abc-8ddc-1c2a83b54a8a">
+    <name>ЗначениеЧисло</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение число</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>25</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0a13bccb-6c18-4880-b9f3-24979eda93fd">
+    <name>ЗначениеБулево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение булево</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="83d9c7bf-9519-4187-9f2d-84e5ec4ad283">
+    <name>ЗначениеДата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3aaebef6-eb6a-4211-aad2-6336cb299334">
+    <name>ЗначениеУИД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение УИД</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="be7341d4-dee0-44a3-b2a5-2ddd31af8df5">
+    <name>ЗначениеСсылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение ссылка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СсылкаВБазе1С</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2ff040cc-24d1-446f-ac90-9e0733160f0d">
+    <name>ЗначениеСсылкаНаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение ссылка на настройки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыСекретовКонфигураций1С</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="e5976ad0-fefa-4807-8707-c6abb7785b06">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b8fa3088-15eb-4476-876a-f69d06445e91">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3685dfcf-4091-4d9b-bdf0-f223ab05fa07">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

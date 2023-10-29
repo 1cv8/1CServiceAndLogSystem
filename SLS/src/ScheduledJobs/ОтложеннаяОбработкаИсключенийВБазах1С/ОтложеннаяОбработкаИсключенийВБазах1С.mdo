@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc5b046d-6c03-4a08-95fa-87323d30da90">
+  <name>ОтложеннаяОбработкаИсключенийВБазах1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отложенная обработка исключений в базах 1С</value>
+  </synonym>
+  <methodName>CommonModule.ЖурналИсключений.ОтложеннаяОбработкаИсключенийВБазах1С</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d917e6e1-ec6f-43c7-b5a0-f65129616048">
+  <producedTypes>
+    <objectType typeId="92b943f1-3558-46a1-9e29-88ba43eb62a6" valueTypeId="3d0a719b-2414-46a8-86cf-18292c741cb9"/>
+    <refType typeId="42bcce19-5588-4b3a-a6d4-6628c650d6f2" valueTypeId="247bf959-4e35-4cb5-8049-b3fefd9536cd"/>
+    <selectionType typeId="bdeeb1c1-d4fb-4f14-835d-cfd2d5d43011" valueTypeId="118cedf3-7082-4abb-8cf1-5f036e1879b4"/>
+    <listType typeId="e1d618fc-1114-4699-986f-6cc4927673a0" valueTypeId="7d4bc532-5fdd-42be-9f80-59e80f34ee75"/>
+    <managerType typeId="f89098e9-fee8-400c-87cf-8eb06e28b989" valueTypeId="e137a133-4a20-468f-a644-d14662845e26"/>
+  </producedTypes>
+  <name>ТипыСекретовКонфигураций1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы секретов конфигураций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыСекретовКонфигураций1С.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТипыСекретовКонфигураций1С.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Конфигурации1С</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="546b5c08-d10f-49d9-bc91-828dc3ef5fcc">
+    <name>Синоним</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синоним</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1a8c4c1d-4d4b-4dc7-ae02-cc46372cf445">
+    <name>РежимПароля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим пароля</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="07564391-378a-44f2-be19-714bc7a750b5">
+    <name>НеСчитыватьДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не считывать данные</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8fc4eabe-08e3-45cc-ad70-21a06778d43e">
+    <name>ПорядокВывода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок вывода</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

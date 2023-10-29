@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1078ca26-916d-46a6-a9c3-1beb2fcfcb7a">
+  <name>ЗамерыВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замеры времени</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделЗамерыВремени186</picture>
+  </picture>
+  <content>Catalog.ПараметрыИмпортаЗамеровВремениSQL</content>
+  <content>Catalog.КлючевыеОперации</content>
+  <content>InformationRegister.НастройкиИмпортаЗамеровВремени</content>
+  <content>ScheduledJob.СинхронизацияЗамеровВремени</content>
+  <content>InformationRegister.ГраницыИмпортаЗамеровПроизводительности</content>
+  <content>InformationRegister.ЗамерыВремени</content>
+  <content>Report.АнализЗамеровПроизводительности</content>
+  <content>CommonPicture.РазделЗамерыВремени</content>
+  <content>DataProcessor.ЗамерыВремениПанельАдминистрирования</content>
+  <content>CommonModule._ЗамерыВремени</content>
+  <content>EventSubscription._КлючеваяОперация_ПередЗаписью</content>
+  <content>Report.ДинамикаДлительностиОперации</content>
+</mdclass:Subsystem>

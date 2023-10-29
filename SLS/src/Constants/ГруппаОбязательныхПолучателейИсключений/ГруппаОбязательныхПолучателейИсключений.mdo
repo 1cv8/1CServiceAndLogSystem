@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="851ceca3-531f-4f11-ac04-1b6a683a3c93">
+  <producedTypes>
+    <managerType typeId="07adde02-607c-4946-9788-1205552d2299" valueTypeId="5cd1324e-ed2c-4da7-942a-6a1898bc1f68"/>
+    <valueManagerType typeId="d25aa2d5-9b23-4a23-8365-11ee51b232a2" valueTypeId="0e27a4d3-1443-41dd-bdf4-10b575105bc5"/>
+    <valueKeyType typeId="eee6b64a-48fd-4495-a4c9-dde11d33341a" valueTypeId="798e3c70-1f59-4613-979b-383f68007514"/>
+  </producedTypes>
+  <name>ГруппаОбязательныхПолучателейИсключений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группа обязательных получателей исключений</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ГруппыПолучателейРассылок</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
